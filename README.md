@@ -1,5 +1,6 @@
 # Ephinea Drop Chart
 Addon to show the Ephinea Drop Chart in game.
+Only shows Ultimate drops currently.
 
 ### Requirements
 v0.3.7.0+ of the [psobbaddonplugin](https://github.com/Solybum/psobbaddonplugin)
