@@ -1943,109 +1943,109 @@ local button_func = function()
 end
 
 local function present()
-  if window_open then
-    imgui.SetNextWindowSize(700, 520, "FirstUseEver");
-    window_open = imgui.Begin("Drop Chart", window_open)
+    if window_open then
+        imgui.SetNextWindowSize(700, 520, "FirstUseEver");
+        imgui.Begin("Drop Chart")
     
-    local xStart, yStart = imgui.GetWindowPos()
-    local yCursor = imgui.GetCursorPosY() - 8
-    local namePad = imgui.CalcTextSize("Crimson Assassin") + 16
-    xStart = xStart + namePad
-    yStart = yStart + yCursor
-    local xWin, yWin = imgui.GetWindowSize()
-    yWin = yWin - yCursor
-    local xCol = (xWin - 6 - namePad) / 10 - 1
+        local xStart, yStart = imgui.GetWindowPos()
+        local yCursor = imgui.GetCursorPosY() - 8
+        local namePad = imgui.CalcTextSize("Crimson Assassin") + 16
+        xStart = xStart + namePad
+        yStart = yStart + yCursor
+        local xWin, yWin = imgui.GetWindowSize()
+        yWin = yWin - yCursor
+        local xCol = (xWin - 6 - namePad) / 10 - 1
 
-    for i = 1, 9, 1 do
-        imgui.AddRectFilled(
-            xStart + (i - 1) * xCol, yStart,
-            xStart + i * xCol, yStart + yWin,
-            SecIDColor[i], 0, 0xF)
-    end
-
-    imgui.Columns(11)
-    for i = 1, 10, 1 do
-        imgui.SetColumnOffset(i, namePad + (i - 1) * xCol)
-    end
-
-    for k = 1, table.getn(Areas), 1 do
-        for i = 1, 22, 1 do
-            imgui.Text("")
-            imgui.NextColumn()
+        for i = 1, 9, 1 do
+            imgui.AddRectFilled(
+                xStart + (i - 1) * xCol, yStart,
+                xStart + i * xCol, yStart + yWin,
+                SecIDColor[i], 0, 0xF)
         end
-        imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][1])) / 2)
-        imgui.Text(Areas[k][1])
-        imgui.NextColumn()
+
+        imgui.Columns(11)
         for i = 1, 10, 1 do
-            imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
-            imgui.Text(SecID[i])
-            imgui.NextColumn()
+            imgui.SetColumnOffset(i, namePad + (i - 1) * xCol)
         end
-        for i = 2, table.getn(Areas[k]), 41 do
+
+        for k = 1, table.getn(Areas), 1 do
+            for i = 1, 22, 1 do
+                imgui.Text("")
+                imgui.NextColumn()
+            end
+            imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][1])) / 2)
+            imgui.Text(Areas[k][1])
+            imgui.NextColumn()
+            for i = 1, 10, 1 do
+                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
+                imgui.Text(SecID[i])
+                imgui.NextColumn()
+            end
+            for i = 2, table.getn(Areas[k]), 41 do
+                imgui.Separator()
+                local cPosX= imgui.GetCursorPosX()
+                local cPosY= imgui.GetCursorPosY()
+                imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][i])) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
+                imgui.Text(Areas[k][i])
+                imgui.SetCursorPos(cPosX, cPosY)
+                for j = 1, 40, 4 do
+                    imgui.NextColumn()
+                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j]) - 16) / 2)
+                    imgui.Text(Areas[k][i+j])
+                end
+                imgui.NextColumn()
+                for j = 1, 40, 4 do
+                    imgui.NextColumn()
+                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j+3]) - 16) / 2)
+                    imgui.Text(Areas[k][i+j+3])
+                    if imgui.IsItemHovered() then
+                        imgui.BeginTooltip()
+                        imgui.Text(Areas[k][i+j+1])
+                        imgui.Text(Areas[k][i+j+2])
+                        imgui.EndTooltip()
+                    end
+                end
+                imgui.NextColumn()
+            end
             imgui.Separator()
+        end
+    
+        for k = 1, table.getn(Boxes), 1 do
+            for i = 1, 22, 1 do
+                imgui.Text("")
+                imgui.NextColumn()
+            end
+            imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Boxes[k][1])) / 2)
+            imgui.Text(Boxes[k][1])
+            imgui.NextColumn()
+            for i = 1, 10, 1 do
+                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
+                imgui.Text(SecID[i])
+                imgui.NextColumn()
+            end
+            imgui.Separator()
+            for i = 1, Boxes[k][2] -1, 1 do
+                imgui.Text("")
+            end
             local cPosX= imgui.GetCursorPosX()
             local cPosY= imgui.GetCursorPosY()
-            imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][i])) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
-            imgui.Text(Areas[k][i])
+            imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize("Box")) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
+            imgui.Text("Box")
             imgui.SetCursorPos(cPosX, cPosY)
-            for j = 1, 40, 4 do
-                imgui.NextColumn()
-                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j]) - 16) / 2)
-                imgui.Text(Areas[k][i+j])
-            end
             imgui.NextColumn()
-            for j = 1, 40, 4 do
-                imgui.NextColumn()
-                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j+3]) - 16) / 2)
-                imgui.Text(Areas[k][i+j+3])
-                if imgui.IsItemHovered() then
-                    imgui.BeginTooltip()
-                    imgui.Text(Areas[k][i+j+1])
-                    imgui.Text(Areas[k][i+j+2])
-                    imgui.EndTooltip()
+            for i = 1, table.getn(Boxes[k]) - 2, 2 * Boxes[k][2] do
+                for j = 0, 2 * Boxes[k][2] - 1, 2 do
+                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 2]) - 16) / 2)
+                    imgui.Text(Boxes[k][i + j + 2])
+                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 3]) - 16) / 2)
+                    imgui.Text(Boxes[k][i + j + 3])
                 end
+                imgui.NextColumn()
             end
-            imgui.NextColumn()
+            imgui.Separator()
         end
-        imgui.Separator()
-    end
     
-    for k = 1, table.getn(Boxes), 1 do
-        for i = 1, 22, 1 do
-            imgui.Text("")
-            imgui.NextColumn()
-        end
-        imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Boxes[k][1])) / 2)
-        imgui.Text(Boxes[k][1])
-        imgui.NextColumn()
-        for i = 1, 10, 1 do
-            imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
-            imgui.Text(SecID[i])
-            imgui.NextColumn()
-        end
-        imgui.Separator()
-        for i = 1, Boxes[k][2] -1, 1 do
-            imgui.Text("")
-        end
-        local cPosX= imgui.GetCursorPosX()
-        local cPosY= imgui.GetCursorPosY()
-        imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize("Box")) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
-        imgui.Text("Box")
-        imgui.SetCursorPos(cPosX, cPosY)
-        imgui.NextColumn()
-        for i = 1, table.getn(Boxes[k]) - 2, 2 * Boxes[k][2] do
-            for j = 0, 2 * Boxes[k][2] - 1, 2 do
-                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 2]) - 16) / 2)
-                imgui.Text(Boxes[k][i + j + 2])
-                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 3]) - 16) / 2)
-                imgui.Text(Boxes[k][i + j + 3])
-            end
-            imgui.NextColumn()
-        end
-        imgui.Separator()
-    end
-
-    imgui.End()
+        imgui.End()
     end
 end
 
@@ -2054,7 +2054,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "1.0",
+    version = "1.1",
     author = "Lilyzavoqth",
     description = "Ultimate Drop Chart",
     present = present
