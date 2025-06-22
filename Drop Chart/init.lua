@@ -3,54 +3,6 @@ local core_mainmenu = require("core_mainmenu")
 local Forest = {
 "Forest",
 
-"El Rappy",
-"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Red Handgun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
-"Stag Cutlery", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Sacred Cloth", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/512 (0.19531%)", "1/512",
-"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Flowen's Sword (3079)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-
-"Pal Rappy",
-"Red Scorpio", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Guard Wave", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Angel Harp", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
-"HP/Revival", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Sacred Cloth", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Agito (1975)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
-"Red Handgun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Star Amplifier", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Hero/Ability", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Red Partisan", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-
-"Gulgus",
-"Custom Frame ver.OO", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/204.80 (0.48828%)", "1/682.67",
-"Cross Scar", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Stag Cutlery", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Alive Aqhu", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"L&K14 Combat", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Heart of Angel Harp", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/4096 (0.02441%)", "1/13653.33",
-"Flowen's Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/204.80 (0.48828%)", "1/682.67",
-"Dragon Slayer", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Storm Wand: Indra", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Yamato", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-
-"Gulgus-Gue",
-"Inferno Bazooka", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Inferno Bazooka", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Heavenly/Arms", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
-"Imperial Pick", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Heavenly/Arms", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
-"God/Mind", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
-"Heart of Twin Chakram", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/6553.60 (0.01526%)", "1/14563.56",
-"Flowen's Sword (3083)", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/64 (1.56250%)", "1/142.22",
-"Cure/Confuse", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
-"Cure/Freeze", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
-
 "Bartle",
 "Final Impact", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
 "Justy-23ST", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
@@ -86,6 +38,54 @@ local Forest = {
 "Twin Chakram", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/315.08 (0.31738%)", "1/900.22",
 "Agito (1975)", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/28807.03",
 "Handgun: Milla", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/28807.03",
+
+"Gulgus",
+"Custom Frame ver.OO", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/204.80 (0.48828%)", "1/682.67",
+"Cross Scar", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Stag Cutlery", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Alive Aqhu", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"L&K14 Combat", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Heart of Angel Harp", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/4096 (0.02441%)", "1/13653.33",
+"Flowen's Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/204.80 (0.48828%)", "1/682.67",
+"Dragon Slayer", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Storm Wand: Indra", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Yamato", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+
+"Gulgus-Gue",
+"Inferno Bazooka", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Inferno Bazooka", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Heavenly/Arms", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
+"Imperial Pick", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Heavenly/Arms", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
+"God/Mind", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
+"Heart of Twin Chakram", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/6553.60 (0.01526%)", "1/14563.56",
+"Flowen's Sword (3083)", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/64 (1.56250%)", "1/142.22",
+"Cure/Confuse", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
+"Cure/Freeze", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
+
+"El Rappy",
+"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Angry Fist", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Red Handgun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
+"Stag Cutlery", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Sacred Cloth", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/512 (0.19531%)", "1/512",
+"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Flowen's Sword (3079)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+
+"Pal Rappy",
+"Red Scorpio", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Guard Wave", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Angel Harp", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
+"HP/Revival", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Sacred Cloth", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Agito (1975)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
+"Red Handgun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Star Amplifier", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Hero/Ability", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Red Partisan", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 
 "Mothvert",
 "Gae Bolg", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
@@ -199,6 +199,18 @@ local Cave = {
 "Sange", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Agito (1975)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
 
+"Crimson Assassin",
+"V101", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/1260.31 (0.07935%)", "1/2291.47",
+"Shouren", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/682.67 (0.14648%)", "1/1241.21",
+"Red Dagger", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
+"Red Partisan", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
+"Smoking Plate", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/1024 (0.09766%)", "1/1861.82",
+"Technical Crozier", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
+"Asuka", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
+"Red Partisan", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
+"Heaven Punisher", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/104857.60 (0.00095%)", "1/190650.18",
+"Shouren", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/682.67 (0.14648%)", "1/1241.21",
+
 "Nano Dragon",
 "Red Sword", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
 "God/Arm", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/512 (0.19531%)", "1/930.91",
@@ -210,6 +222,30 @@ local Cave = {
 "Agito (1975)", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/18331.75",
 "Red Scorpio", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
 "Flight Fan", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
+
+"Pofuilly Slime",
+"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
+"DB's Shield", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/204.80 (0.48828%)", "1/758.52",
+"Dragon Slayer", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
+"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
+"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
+"Lavis Cannon", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/37342.45",
+"Guard Wave", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/512 (0.19531%)", "1/1896.30",
+"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
+"Final Impact", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
+"Guard Wave", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/1024 (0.09766%)", "1/3792.59",
+
+"Pouilly Slime",
+"God/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Morning Glory", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Demolition Comet", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Caduceus", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Red Scorpio", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"TP/Revival", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Lavis Cannon", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
+"Guard Wave", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Caduceus", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Caduceus", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 
 "Pan Arms",
 "Sange", "Drop Rate: 1/1.11 (90%)", "Rare Rate: 1/315.08 (0.31738%)", "1/350.09",
@@ -246,42 +282,6 @@ local Cave = {
 "Yamato", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/64 (1.56250%)", "1/142.22",
 "Justy-23ST", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/64 (1.56250%)", "1/142.22",
 "Angry Fist", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/64 (1.56250%)", "1/142.22",
-
-"Crimson Assassin",
-"V101", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/1260.31 (0.07935%)", "1/2291.47",
-"Shouren", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/682.67 (0.14648%)", "1/1241.21",
-"Red Dagger", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
-"Red Partisan", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
-"Smoking Plate", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/1024 (0.09766%)", "1/1861.82",
-"Technical Crozier", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
-"Asuka", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
-"Red Partisan", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/315.08 (0.31738%)", "1/572.87",
-"Heaven Punisher", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/104857.60 (0.00095%)", "1/190650.18",
-"Shouren", "Drop Rate: 1/1.82 (55%)", "Rare Rate: 1/682.67 (0.14648%)", "1/1241.21",
-
-"Pofuilly Slime",
-"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
-"DB's Shield", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/204.80 (0.48828%)", "1/758.52",
-"Dragon Slayer", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
-"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
-"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
-"Lavis Cannon", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/37342.45",
-"Guard Wave", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/512 (0.19531%)", "1/1896.30",
-"Stag Cutlery", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
-"Final Impact", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/64 (1.56250%)", "1/237.04",
-"Guard Wave", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/1024 (0.09766%)", "1/3792.59",
-
-"Pouilly Slime",
-"God/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Morning Glory", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Demolition Comet", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Caduceus", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Red Scorpio", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"TP/Revival", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Lavis Cannon", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
-"Guard Wave", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Caduceus", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Caduceus", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 
 "Dal Ral Lie",
 "L&K38 Combat", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/39.38 (2.53906%)", "1/39.38",
@@ -507,18 +507,6 @@ local Ruin = {
 "Heavenly/Arms", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
 "Belra's Right Arm", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
 
-"Dark Gunner",
-"Luminous Field", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/1024 (0.09766%)", "1/2275.56",
-"Red Mechgun", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Skyly Card", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/22405.47",
-"Red Slicer", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Sacred Guard", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/1024 (0.09766%)", "1/2275.56",
-"Morning Glory", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Smoking Plate", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
-"Heart of Partisan of Lightning", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/2730.67 (0.03662%)", "1/6068.15",
-"Guardianna", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-"Red Slicer", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
-
 "Dark Bringer",
 "Bringer's Right Arm", "Drop Rate: 1/1.14 (88%)", "Rare Rate: 1/315.08 (0.31738%)", "1/358.04",
 "Monkey King Bar", "Drop Rate: 1/1.14 (88%)", "Rare Rate: 1/315.08 (0.31738%)", "1/358.04",
@@ -530,6 +518,18 @@ local Ruin = {
 "Prophets of Motav", "Drop Rate: 1/1.14 (88%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/11457.34",
 "Bringer's Right Arm", "Drop Rate: 1/1.14 (88%)", "Rare Rate: 1/315.08 (0.31738%)", "1/358.04",
 "Rico's Earring", "Drop Rate: 1/1.14 (88%)", "Rare Rate: 1/512 (0.19531%)", "1/581.82",
+
+"Dark Gunner",
+"Luminous Field", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/1024 (0.09766%)", "1/2275.56",
+"Red Mechgun", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Skyly Card", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/22405.47",
+"Red Slicer", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Sacred Guard", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/1024 (0.09766%)", "1/2275.56",
+"Morning Glory", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Smoking Plate", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/512 (0.19531%)", "1/1137.78",
+"Heart of Partisan of Lightning", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/2730.67 (0.03662%)", "1/6068.15",
+"Guardianna", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
+"Red Slicer", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
 
 "Dark Falz",
 "Red Ring", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/186.18 (0.53711%)", "1/186.18",
@@ -546,66 +546,6 @@ local Ruin = {
 
 local Temple = {
 "Temple",
-
-"El Rappy",
-"Windmill", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
-"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
-"Vivienne", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
-"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
-"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
-"Vivienne", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
-"Rambling May", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
-"DB's Saber (3070)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
-"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
-"Rambling May", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
-
-"Love Rappy",
-"Rabbit Wand", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"God/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Parts of Egg Blaster", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Rabbit Wand", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"God/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Parts of Egg Blaster", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"The Sigh of a God", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"The Sigh of a God", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"DB's Saber (3077)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
-
-"St. Rappy",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-
-"Halo Rappy",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-
-"Egg Rappy",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
-"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
 
 "Arlan",
 "Gae Bolg", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
@@ -666,6 +606,66 @@ local Temple = {
 "Aura Field", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Secure Feet", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Thirteen", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+
+"El Rappy",
+"Windmill", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
+"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
+"Vivienne", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
+"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
+"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
+"Vivienne", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
+"Rambling May", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
+"DB's Saber (3070)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/315.08 (0.31738%)", "1/315.08",
+"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/64 (1.56250%)", "1/64",
+"Rambling May", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1024 (0.09766%)", "1/1024",
+
+"Love Rappy",
+"Rabbit Wand", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"God/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Parts of Egg Blaster", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Rabbit Wand", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"God/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Parts of Egg Blaster", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Suppressed Gun", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"The Sigh of a God", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"The Sigh of a God", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"DB's Saber (3077)", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/21.33 (4.68750%)", "1/21.33",
+
+"St. Rappy",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Christmas Present", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+
+"Halo Rappy",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Jack-O'-Lantern", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+
+"Egg Rappy",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
+"Easter Egg", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1.14 (87.50000%)", "1/1.14",
 
 "Mothvert",
 "Final Impact", "Drop Rate: 1/5 (20%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1575.38",
@@ -743,6 +743,30 @@ local Temple = {
 local Spaceship = {
 "Spaceship",
 
+"Gilchich",
+"Heavenly/Power", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Cross Scar", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Agito (1975)", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/33608.21",
+"Guilty Light", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Anti Android Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Liberta Kit", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/1260.31 (0.07935%)", "1/4201.03",
+"Electro Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Sting Tip", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Gae Bolg", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Electro Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+
+"Dubchich",
+"Electro Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Anti Android Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Chain Sawd", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Regenerate Gear B.P.", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Agito (1980)", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Sting Tip", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Photon Filter", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/3900.95",
+"Anti Android Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Dragon Slayer", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Diska of Braveman", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+
 "Gulgus",
 "Smartlink", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/372.36 (0.26855%)", "1/1241.21",
 "Cross Scar", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
@@ -766,6 +790,42 @@ local Spaceship = {
 "Ancient Saber", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
 "God/Legs", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/512 (0.19531%)", "1/1706.67",
 "L&K14 Combat", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+
+"Delsaber",
+"Agito (1977)", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Handgun: Guld", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
+"Guren", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"V501", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/256 (0.39063%)", "1/1024",
+"Rage de Foudre", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Agito (1980)", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Flowen's Shield", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Daylight Scar", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Lavis Cannon", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
+"Guren", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+
+"Gran Sorcerer",
+"Heart of Crazy Tune", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/1638.40 (0.06104%)", "1/6553.60",
+"Greenill Card", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
+"Sorcerer's Right Arm", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"God/Technique", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Ignition Cloak", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/409.60 (0.24414%)", "1/1638.40",
+"Prophets of Motav", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
+"Redria Card", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
+"Guren", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
+"Rage de Foudre", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/1024 (0.09766%)", "1/4096",
+"Sting Tip", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/64 (1.56250%)", "1/256",
+
+"Baranz",
+"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
+"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
+"Daylight Scar", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/630.15 (0.15869%)", "1/1260.31",
+"Heart of Soul Banish", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/3276.80 (0.03052%)", "1/6553.60",
+"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
+"Parts of Baranz", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
+"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
+"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
+"Daylight Scar", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/630.15 (0.15869%)", "1/1260.31",
+"Parts of Baranz", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/630.15 (0.15869%)", "1/1260.31",
 
 "Pan Arms",
 "Berdysh", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
@@ -802,66 +862,6 @@ local Spaceship = {
 "Twin Psychogun", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/315.08 (0.31738%)", "1/700.17",
 "Diska of Braveman", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/36.57 (2.73438%)", "1/81.27",
 "Angry Fist", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/36.57 (2.73438%)", "1/81.27",
-
-"Gilchich",
-"Heavenly/Power", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Cross Scar", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Agito (1975)", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/33608.21",
-"Guilty Light", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Anti Android Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Liberta Kit", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/1260.31 (0.07935%)", "1/4201.03",
-"Electro Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Sting Tip", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Gae Bolg", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Electro Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-
-"Dubchich",
-"Electro Frame", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Anti Android Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Chain Sawd", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Regenerate Gear B.P.", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Agito (1980)", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Sting Tip", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Photon Filter", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/3900.95",
-"Anti Android Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Dragon Slayer", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Diska of Braveman", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-
-"Delsaber",
-"Agito (1977)", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Handgun: Guld", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
-"Guren", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"V501", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/256 (0.39063%)", "1/1024",
-"Rage de Foudre", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Agito (1980)", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Flowen's Shield", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Daylight Scar", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Lavis Cannon", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
-"Guren", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-
-"Baranz",
-"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
-"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
-"Daylight Scar", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/630.15 (0.15869%)", "1/1260.31",
-"Heart of Soul Banish", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/3276.80 (0.03052%)", "1/6553.60",
-"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
-"Parts of Baranz", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
-"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
-"Panzer Faust", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/315.08 (0.31738%)", "1/630.15",
-"Daylight Scar", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/630.15 (0.15869%)", "1/1260.31",
-"Parts of Baranz", "Drop Rate: 1/2 (50%)", "Rare Rate: 1/630.15 (0.15869%)", "1/1260.31",
-
-"Gran Sorcerer",
-"Heart of Crazy Tune", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/1638.40 (0.06104%)", "1/6553.60",
-"Greenill Card", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
-"Sorcerer's Right Arm", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"God/Technique", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Ignition Cloak", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/409.60 (0.24414%)", "1/1638.40",
-"Prophets of Motav", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
-"Redria Card", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/40329.85",
-"Guren", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1260.31",
-"Rage de Foudre", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/1024 (0.09766%)", "1/4096",
-"Sting Tip", "Drop Rate: 1/4 (25%)", "Rare Rate: 1/64 (1.56250%)", "1/256",
 
 "Gol Dragon",
 "God Hand", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/36.57 (2.73438%)", "1/36.57",
@@ -1063,6 +1063,18 @@ local Seabed = {
 "Heart of TypeDS/D.Saber", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/5041.23 (0.01984%)", "1/14403.52",
 "Stink Frame", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/315.08 (0.31738%)", "1/900.22",
 
+"Recon",
+"Maser Beam", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/315.08 (0.31738%)", "1/3150.77",
+"Justy-23ST", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"Guilty Light", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"Twin Brand", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/315.08 (0.31738%)", "1/3150.77",
+"L&K14 Combat", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"Storm Wand: Indra", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"Stag Cutlery", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"Cross Scar", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"Guilty Light", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+"L&K14 Combat", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
+
 "Sinow Zoa",
 "Heavenly/Power", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
 "Ano Rifle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
@@ -1110,18 +1122,6 @@ local Seabed = {
 "Rika's Claw", "Drop Rate: 1/2.50 (40%)", "Rare Rate: 1/315.08 (0.31738%)", "1/787.69",
 "Yellowboze Card", "Drop Rate: 1/2.50 (40%)", "Rare Rate: 1/10082.46 (0.00992%)", "1/25206.15",
 "Crimson Coat", "Drop Rate: 1/2.50 (40%)", "Rare Rate: 1/744.73 (0.13428%)", "1/1861.82",
-
-"Recon",
-"Maser Beam", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/315.08 (0.31738%)", "1/3150.77",
-"Justy-23ST", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"Guilty Light", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"Twin Brand", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/315.08 (0.31738%)", "1/3150.77",
-"L&K14 Combat", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"Storm Wand: Indra", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"Stag Cutlery", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"Cross Scar", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"Guilty Light", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
-"L&K14 Combat", "Drop Rate: 1/10 (10%)", "Rare Rate: 1/64 (1.56250%)", "1/640",
 
 "Delbiter",
 "Psycho Wand", "Drop Rate: 1/1.25 (80%)", "Rare Rate: 1/104857.60 (0.00095%)", "1/131072",
@@ -1275,54 +1275,6 @@ local Tower = {
 local Crater = {
 "Crater",
 
-"Sand Rappy",
-"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
-"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
-"Last Survivor", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
-"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
-"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
-
-"Del Rappy",
-"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-
-"Satellite Lizard",
-"Rianov 303SNR-4", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
-"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
-"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
-"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
-"Glide Divine", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
-"Glide Divine", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
-"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
-"Slicer of Fanatic", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/372.36 (0.26855%)", "1/1241.21",
-"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
-"Morning Glory", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
-
-"Yowie",
-"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
-"Snake Spire", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
-"Snake Spire", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
-"Girasole", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/409.60 (0.24414%)", "1/910.22",
-"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
-"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
-"Snake Spire", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
-"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
-"Rianov 303SNR-1", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
-"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
-
 "Boota",
 "Kusanagi", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
 "Tanegashima", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/170.67 (0.58594%)", "1/568.89",
@@ -1359,6 +1311,66 @@ local Crater = {
 "Red Odoshi Domaru", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/315.08 (0.31738%)", "1/900.22",
 "Thirteen", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/315.08 (0.31738%)", "1/900.22",
 
+"Satellite Lizard",
+"Rianov 303SNR-4", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
+"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
+"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
+"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
+"Glide Divine", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
+"Glide Divine", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
+"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
+"Slicer of Fanatic", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/372.36 (0.26855%)", "1/1241.21",
+"Photon Crystal", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/256 (0.39063%)", "1/853.33",
+"Morning Glory", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
+
+"Yowie",
+"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
+"Snake Spire", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
+"Snake Spire", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
+"Girasole", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/409.60 (0.24414%)", "1/910.22",
+"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
+"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
+"Snake Spire", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
+"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
+"Rianov 303SNR-1", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
+"Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
+
+"Sand Rappy",
+"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
+"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
+"Last Survivor", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
+"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
+"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
+
+"Del Rappy",
+"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+
+"Astark",
+"Yata Mirror", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/341.33 (0.29297%)", "1/401.57",
+"Sacred Duster", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/372.36 (0.26855%)", "1/438.07",
+"Yasakani Magatama", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/372.36 (0.26855%)", "1/438.07",
+"Limiter", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/2048 (0.04883%)", "1/2409.41",
+"Yata Mirror", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/341.33 (0.29297%)", "1/401.57",
+"Heavenly/Mind", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/744.73 (0.13428%)", "1/876.15",
+"Striker Plus", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/585.14 (0.17090%)", "1/688.40",
+"Musashi", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/186.18 (0.53711%)", "1/219.04",
+"Striker Plus", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/585.14 (0.17090%)", "1/688.40",
+"Yasakani Magatama", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/372.36 (0.26855%)", "1/438.07",
+
 "Zu",
 "Final Impact", "Drop Rate: 1/1.25 (80%)", "Rare Rate: 1/146.29 (0.68359%)", "1/182.86",
 "V101", "Drop Rate: 1/1.25 (80%)", "Rare Rate: 1/1638.40 (0.06104%)", "1/2048",
@@ -1382,18 +1394,6 @@ local Crater = {
 "Kunai", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Girasole", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Ophelie Seize", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-
-"Astark",
-"Yata Mirror", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/341.33 (0.29297%)", "1/401.57",
-"Sacred Duster", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/372.36 (0.26855%)", "1/438.07",
-"Yasakani Magatama", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/372.36 (0.26855%)", "1/438.07",
-"Limiter", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/2048 (0.04883%)", "1/2409.41",
-"Yata Mirror", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/341.33 (0.29297%)", "1/401.57",
-"Heavenly/Mind", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/744.73 (0.13428%)", "1/876.15",
-"Striker Plus", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/585.14 (0.17090%)", "1/688.40",
-"Musashi", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/186.18 (0.53711%)", "1/219.04",
-"Striker Plus", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/585.14 (0.17090%)", "1/688.40",
-"Yasakani Magatama", "Drop Rate: 1/1.18 (85%)", "Rare Rate: 1/372.36 (0.26855%)", "1/438.07",
 
 "Dorphon",
 "Gratia", "Drop Rate: 1/1.25 (80%)", "Rare Rate: 1/341.33 (0.29297%)", "1/426.67",
@@ -1423,29 +1423,29 @@ local Crater = {
 local Desert = {
 "Desert",
 
-"Sand Rappy",
-"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
-"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
-"Last Survivor", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
-"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
-"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
-"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
+"Goran",
+"Flame Visit", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Justy-23ST", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Chain Sawd", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Lieutenant Mantle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/512 (0.19531%)", "1/1706.67",
+"Yasminkov 9000M", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/455.11 (0.21973%)", "1/1517.04",
+"Guardianna", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
+"Stag Cutlery", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
+"Zero Divide", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/455.11 (0.21973%)", "1/1517.04",
+"Lieutenant Mantle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/512 (0.19531%)", "1/1706.67",
+"Slicer of Fanatic", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/455.11 (0.21973%)", "1/1517.04",
 
-"Del Rappy",
-"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
-"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Pyro Goran",
+"Lieutenant Mantle", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
+"Heaven Striker", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/3343.67",
+"Black Odoshi Red Nimaidou", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/315.08 (0.31738%)", "1/900.22",
+"Congeal Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
+"Tempest Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
+"Mother Garb", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
+"Heaven Striker", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/3343.67",
+"Cursed Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
+"Select Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
+"Pioneer Parts", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/682.67 (0.14648%)", "1/1950.48",
 
 "Satellite Lizard",
 "Rianov 303SNR-4", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/292.57 (0.34180%)", "1/975.24",
@@ -1471,41 +1471,29 @@ local Desert = {
 "Rianov 303SNR-1", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/204.80 (0.48828%)", "1/455.11",
 "Photon Crystal", "Drop Rate: 1/2.22 (45%)", "Rare Rate: 1/341.33 (0.29297%)", "1/758.52",
 
-"Goran",
-"Flame Visit", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Justy-23ST", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Chain Sawd", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Lieutenant Mantle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/512 (0.19531%)", "1/1706.67",
-"Yasminkov 9000M", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/455.11 (0.21973%)", "1/1517.04",
-"Guardianna", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/315.08 (0.31738%)", "1/1050.26",
-"Stag Cutlery", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/64 (1.56250%)", "1/213.33",
-"Zero Divide", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/455.11 (0.21973%)", "1/1517.04",
-"Lieutenant Mantle", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/512 (0.19531%)", "1/1706.67",
-"Slicer of Fanatic", "Drop Rate: 1/3.33 (30%)", "Rare Rate: 1/455.11 (0.21973%)", "1/1517.04",
+"Sand Rappy",
+"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
+"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
+"Last Survivor", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Star Cuirass", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/1170.29",
+"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
+"Cross Scar", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Maguwa", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/585.14 (0.17090%)", "1/585.14",
+"Lieutenant Gear", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/630.15 (0.15869%)", "1/630.15",
 
-"Pyro Goran",
-"Lieutenant Mantle", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
-"Heaven Striker", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/3343.67",
-"Black Odoshi Red Nimaidou", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/315.08 (0.31738%)", "1/900.22",
-"Congeal Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
-"Tempest Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
-"Mother Garb", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
-"Heaven Striker", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/1170.29 (0.08545%)", "1/3343.67",
-"Cursed Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
-"Select Cloak", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/585.14 (0.17090%)", "1/1671.84",
-"Pioneer Parts", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/682.67 (0.14648%)", "1/1950.48",
-
-"Goran Detonator",
-"Liberta Kit", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/819.20 (0.12207%)", "1/2340.57",
-"Flame Garment", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
-"Lame d'Argent", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/512 (0.19531%)", "1/1462.86",
-"Berdysh", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/157.54 (0.63477%)", "1/450.11",
-"Guard Wave", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
-"Solferino", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/157.54 (0.63477%)", "1/450.11",
-"Diska of Braveman", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/64 (1.56250%)", "1/182.86",
-"Lieutenant Mantle", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
-"Asuka", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/157.54 (0.63477%)", "1/450.11",
-"Lieutenant Mantle", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
+"Del Rappy",
+"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Body", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Legs", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+"Heavenly/Luck", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 
 "Merissa A",
 "Final Impact", "Drop Rate: 1/3.70 (27%)", "Rare Rate: 1/56.89 (1.75781%)", "1/210.70",
@@ -1530,6 +1518,18 @@ local Desert = {
 "Ophelie Seize", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Flamberge", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
 "Flamberge", "Drop Rate: 1/1 (100%)", "Rare Rate: 1/2 (50.00000%)", "1/2",
+
+"Goran Detonator",
+"Liberta Kit", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/819.20 (0.12207%)", "1/2340.57",
+"Flame Garment", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
+"Lame d'Argent", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/512 (0.19531%)", "1/1462.86",
+"Berdysh", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/157.54 (0.63477%)", "1/450.11",
+"Guard Wave", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
+"Solferino", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/157.54 (0.63477%)", "1/450.11",
+"Diska of Braveman", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/64 (1.56250%)", "1/182.86",
+"Lieutenant Mantle", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
+"Asuka", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/157.54 (0.63477%)", "1/450.11",
+"Lieutenant Mantle", "Drop Rate: 1/2.86 (35%)", "Rare Rate: 1/256 (0.39063%)", "1/731.43",
 
 "Zu",
 "Final Impact", "Drop Rate: 1/1.25 (80%)", "Rare Rate: 1/146.29 (0.68359%)", "1/182.86",
@@ -1937,6 +1937,8 @@ local SecIDColor = {0x7F264000, 0x7F004012, 0x7F3E3E02, 0x7F401800, 0x7F400033, 
 local Areas = {Forest, Cave, Mine, Ruin, Temple, Spaceship, CCA, Seabed, Tower, Crater, Desert}
 local Boxes = {BoxForest1, BoxForest2, BoxCave1, BoxCave2, BoxCave3, BoxMine1, BoxMine2, BoxRuin1, BoxRuin2, BoxRuin3, BoxTempleAlpha, BoxTempleBeta, BoxSpaceshipAlpha, BoxSpaceshipBeta, BoxJungleNorth, BoxJungleEast, BoxMountain, BoxSeasideCCA, BoxSeabedUpper, BoxSeabedLower, BoxCrater, BoxDesert}
 
+local ShowBox = false
+
 local window_open = false
 local button_func = function()
   window_open = not window_open
@@ -1946,6 +1948,12 @@ local function present()
     if window_open then
         imgui.SetNextWindowSize(700, 520, "FirstUseEver");
         imgui.Begin("Drop Chart")
+        
+        local xCur, yCur = imgui.GetCursorPos()
+        if imgui.Checkbox("Boxes", ShowBox) then
+            ShowBox = not ShowBox
+        end
+        imgui.SetCursorPos(xCur, yCur)
     
         local xStart, yStart = imgui.GetWindowPos()
         local yCursor = imgui.GetCursorPosY() - 8
@@ -1968,83 +1976,84 @@ local function present()
             imgui.SetColumnOffset(i, namePad + (i - 1) * xCol)
         end
 
-        for k = 1, table.getn(Areas), 1 do
-            for i = 1, 22, 1 do
-                imgui.Text("")
+        if not ShowBox then
+            for k = 1, table.getn(Areas), 1 do
+                for i = 1, 22, 1 do
+                    imgui.Text("")
+                    imgui.NextColumn()
+                end
+                imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][1])) / 2)
+                imgui.Text(Areas[k][1])
                 imgui.NextColumn()
-            end
-            imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][1])) / 2)
-            imgui.Text(Areas[k][1])
-            imgui.NextColumn()
-            for i = 1, 10, 1 do
-                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
-                imgui.Text(SecID[i])
-                imgui.NextColumn()
-            end
-            for i = 2, table.getn(Areas[k]), 41 do
+                for i = 1, 10, 1 do
+                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
+                    imgui.Text(SecID[i])
+                    imgui.NextColumn()
+                end
+                for i = 2, table.getn(Areas[k]), 41 do
+                    imgui.Separator()
+                    local cPosX= imgui.GetCursorPosX()
+                    local cPosY= imgui.GetCursorPosY()
+                    imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][i])) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
+                    imgui.Text(Areas[k][i])
+                    imgui.SetCursorPos(cPosX, cPosY)
+                    for j = 1, 40, 4 do
+                        imgui.NextColumn()
+                        imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j]) - 16) / 2)
+                        imgui.Text(Areas[k][i+j])
+                    end
+                    imgui.NextColumn()
+                    for j = 1, 40, 4 do
+                        imgui.NextColumn()
+                        imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j+3]) - 16) / 2)
+                        imgui.Text(Areas[k][i+j+3])
+                        if imgui.IsItemHovered() then
+                            imgui.BeginTooltip()
+                            imgui.Text(Areas[k][i+j+1])
+                            imgui.Text(Areas[k][i+j+2])
+                            imgui.EndTooltip()
+                        end
+                    end
+                    imgui.NextColumn()
+                end
                 imgui.Separator()
+            end
+        else
+            for k = 1, table.getn(Boxes), 1 do
+                for i = 1, 22, 1 do
+                    imgui.Text("")
+                    imgui.NextColumn()
+                end
+                imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Boxes[k][1])) / 2)
+                imgui.Text(Boxes[k][1])
+                imgui.NextColumn()
+                for i = 1, 10, 1 do
+                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
+                    imgui.Text(SecID[i])
+                    imgui.NextColumn()
+                end
+                imgui.Separator()
+                for i = 1, Boxes[k][2] -1, 1 do
+                    imgui.Text("")
+                end
                 local cPosX= imgui.GetCursorPosX()
                 local cPosY= imgui.GetCursorPosY()
-                imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Areas[k][i])) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
-                imgui.Text(Areas[k][i])
+                imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize("Box")) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
+                imgui.Text("Box")
                 imgui.SetCursorPos(cPosX, cPosY)
-                for j = 1, 40, 4 do
-                    imgui.NextColumn()
-                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j]) - 16) / 2)
-                    imgui.Text(Areas[k][i+j])
-                end
                 imgui.NextColumn()
-                for j = 1, 40, 4 do
-                    imgui.NextColumn()
-                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Areas[k][i+j+3]) - 16) / 2)
-                    imgui.Text(Areas[k][i+j+3])
-                    if imgui.IsItemHovered() then
-                        imgui.BeginTooltip()
-                        imgui.Text(Areas[k][i+j+1])
-                        imgui.Text(Areas[k][i+j+2])
-                        imgui.EndTooltip()
+                for i = 1, table.getn(Boxes[k]) - 2, 2 * Boxes[k][2] do
+                    for j = 0, 2 * Boxes[k][2] - 1, 2 do
+                        imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 2]) - 16) / 2)
+                        imgui.Text(Boxes[k][i + j + 2])
+                        imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 3]) - 16) / 2)
+                        imgui.Text(Boxes[k][i + j + 3])
                     end
+                    imgui.NextColumn()
                 end
-                imgui.NextColumn()
+                imgui.Separator()
             end
-            imgui.Separator()
         end
-    
-        for k = 1, table.getn(Boxes), 1 do
-            for i = 1, 22, 1 do
-                imgui.Text("")
-                imgui.NextColumn()
-            end
-            imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Boxes[k][1])) / 2)
-            imgui.Text(Boxes[k][1])
-            imgui.NextColumn()
-            for i = 1, 10, 1 do
-                imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[i]) - 16) / 2)
-                imgui.Text(SecID[i])
-                imgui.NextColumn()
-            end
-            imgui.Separator()
-            for i = 1, Boxes[k][2] -1, 1 do
-                imgui.Text("")
-            end
-            local cPosX= imgui.GetCursorPosX()
-            local cPosY= imgui.GetCursorPosY()
-            imgui.SetCursorPos(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize("Box")) / 2, imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
-            imgui.Text("Box")
-            imgui.SetCursorPos(cPosX, cPosY)
-            imgui.NextColumn()
-            for i = 1, table.getn(Boxes[k]) - 2, 2 * Boxes[k][2] do
-                for j = 0, 2 * Boxes[k][2] - 1, 2 do
-                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 2]) - 16) / 2)
-                    imgui.Text(Boxes[k][i + j + 2])
-                    imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(Boxes[k][i + j + 3]) - 16) / 2)
-                    imgui.Text(Boxes[k][i + j + 3])
-                end
-                imgui.NextColumn()
-            end
-            imgui.Separator()
-        end
-    
         imgui.End()
     end
 end
