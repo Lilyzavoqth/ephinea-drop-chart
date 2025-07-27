@@ -1,6 +1,9 @@
 # Ephinea Drop Chart
 Addon to show the Ephinea Drop Chart in game.
-Only shows Ultimate drops currently.
+
+When changing DAR or RDR drop rates might not be 100% correct.
+
+Quest names currently support full case sensitive names or abbreviations. You can find all supported abbreviations in short.lua.
 
 ### Requirements
 v0.3.7.0+ of the [psobbaddonplugin](https://github.com/Solybum/psobbaddonplugin)
