@@ -210,18 +210,22 @@ return{
 ["ma1v2"] = "MAXIMUM ATTACK 1 Ver2",
 
 --Maximum Attack 4th Stage -1A-
+["ma1a"] = "Maximum Attack 4th Stage -1A-",
 ["ma41a"] = "Maximum Attack 4th Stage -1A-",
 ["ma4 1a"] = "Maximum Attack 4th Stage -1A-",
 
 --Maximum Attack 4th Stage -1B-
+["ma1b"] = "Maximum Attack 4th Stage -1B-",
 ["ma41b"] = "Maximum Attack 4th Stage -1B-",
 ["ma4 1b"] = "Maximum Attack 4th Stage -1B-",
 
 --Maximum Attack 4th Stage -1C-
+["ma1c"] = "Maximum Attack 4th Stage -1C-",
 ["ma41c"] = "Maximum Attack 4th Stage -1C-",
 ["ma4 1c"] = "Maximum Attack 4th Stage -1C-",
 
 --Maximum Attack 4th Stage -1R-
+["ma1r"] = "Maximum Attack 4th Stage -1R-",
 ["ma41r"] = "Maximum Attack 4th Stage -1R-",
 ["ma4 1r"] = "Maximum Attack 4th Stage -1R-",
 
@@ -574,18 +578,22 @@ return{
 ["ma2v2"] = "MAXIMUM ATTACK 2 Ver2",
 
 --Maximum Attack 4th Stage -2A-
+["ma2a"] = "Maximum Attack 4th Stage -2A-",
 ["ma42a"] = "Maximum Attack 4th Stage -2A-",
 ["ma4 2a"] = "Maximum Attack 4th Stage -2A-",
 
 --Maximum Attack 4th Stage -2B-
+["ma2b"] = "Maximum Attack 4th Stage -2B-",
 ["ma42b"] = "Maximum Attack 4th Stage -2B-",
 ["ma4 2b"] = "Maximum Attack 4th Stage -2B-",
 
 --Maximum Attack 4th Stage -2C-
+["ma2c"] = "Maximum Attack 4th Stage -2C-",
 ["ma42c"] = "Maximum Attack 4th Stage -2C-",
 ["ma4 2c"] = "Maximum Attack 4th Stage -2C-",
 
 --Maximum Attack 4th Stage -2R-
+["ma2r"] = "Maximum Attack 4th Stage -2R-",
 ["ma42r"] = "Maximum Attack 4th Stage -2R-",
 ["ma4 2r"] = "Maximum Attack 4th Stage -2R-",
 
@@ -935,18 +943,22 @@ return{
 ["ma3 v2"] = "MAXIMUM ATTACK 3 Ver2",
 
 --Maximum Attack 4th Stage -4A-
+["ma4a"] = "Maximum Attack 4th Stage -4A-",
 ["ma44a"] = "Maximum Attack 4th Stage -4A-",
 ["ma4 4a"] = "Maximum Attack 4th Stage -4A-",
 
 --Maximum Attack 4th Stage -4B-
+["ma4b"] = "Maximum Attack 4th Stage -4B-",
 ["ma44b"] = "Maximum Attack 4th Stage -4B-",
 ["ma4 4b"] = "Maximum Attack 4th Stage -4B-",
 
 --Maximum Attack 4th Stage -4C-
+["ma4c"] = "Maximum Attack 4th Stage -4C-",
 ["ma44c"] = "Maximum Attack 4th Stage -4C-",
 ["ma4 4c"] = "Maximum Attack 4th Stage -4C-",
 
 --Maximum Attack 4th Stage -4R-
+["ma4r"] = "Maximum Attack 4th Stage -4R-",
 ["ma44r"] = "Maximum Attack 4th Stage -4R-",
 ["ma4 4r"] = "Maximum Attack 4th Stage -4R-",
 
