@@ -269,6 +269,9 @@ return {
 ["Cave 3"] = "Unknown",
 ["Mine 1"] = "Unknown"},
 
+["Ruins Wreckage"] = {"Ruins 1",
+["Ruins 1"] = "Unknown"},
+
 --Maximum Attack
 ["MAXIMUM ATTACK 1 Ver2"] = {"Forest 2", "Cave 3", "Mine 1", "Mine 2",
 ["Forest 2"] = "38 10w",
@@ -402,6 +405,9 @@ return {
 ["Cave 2"] = "Unknown",
 ["Cave 3"] = "Unknown"},
 
+["Subterranean Patrol #1"] = {"Cave 3",
+["Cave 3"] = "Unknown"},
+
 --Shop
 
 --VR
@@ -461,6 +467,12 @@ return {
 ["Palace"] = "Unknown"},
 
 ["Virtual Limits 2"] = {"Spaceship",
+["Spaceship"] = "Unknown"},
+
+["Virtual Vortex 1"] = {"Palace",
+["Palace"] = "Unknown"},
+
+["Virtual Vortex 2"] = {"Spaceship",
 ["Spaceship"] = "Unknown"},
 
 --Solo Only

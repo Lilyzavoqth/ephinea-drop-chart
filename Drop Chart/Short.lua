@@ -199,6 +199,9 @@ return{
 --Silent Afterimage #2
 ["sa2"] = "Silent Afterimage #2",
 
+--Ruins Wreckage
+["rw"] = "Ruins Wreckage",
+
 
 
 
@@ -277,6 +280,9 @@ return{
 --Lost Son Jim
 ["lsj"] = "Lost Son Jim",
 
+--Subterranean Patrol #1
+["sp1"] = "Subterranean Patrol #1",
+
 
 
 
@@ -318,6 +324,12 @@ return{
 
 --Virtual Limits 2
 ["vl2"] = "Virtual Limits 2",
+
+--Virtual Vortex 1
+["vv1"] = "Virtual Vortex 1",
+
+--Virtual Vortex 2
+["vv2"] = "Virtual Vortex 2",
 
 
 

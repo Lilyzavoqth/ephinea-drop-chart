@@ -315,6 +315,10 @@ return {
 ["Mine 1"] = {"Gillchic", "83", "Dubchic", "39", "Dubwitch", "13", "Canadine", "83", "Canane", "4", "Sinow Beat", "34", "Sinow Gold", "39", "Garanz", "34"},
 ["Total"] = {"Evil Shark", "68", "Pal Shark", "30", "Guil Shark", "27", "Poison Lily", "39", "Pofuilly Slime", "16", "Nano Dragon", "20", "Pan Arms", "9", "", "", "Gillchic", "83", "Dubchic", "39", "Dubwitch", "13", "Canadine", "83", "Canane", "4", "Sinow Beat", "34", "Sinow Gold", "39", "Garanz", "34"}},
 
+["Ruins Wreckage"] = {[0] = "Ruins Wreckage", "Ruins 1", "Total",
+["Ruins 1"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "12 (+3)", "Dark Belra", "22"},
+["Total"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "12 (+3)", "Dark Belra", "22"}},
+
 --Maximum Attack
 ["MAXIMUM ATTACK 1 Ver2"] = {[0] = "MAXIMUM ATTACK 1 Ver2", "Forest 2", "Cave 3", "Mine 2", "Total",
 ["Forest 2"] = {"Booma", "59", "Gobooma", "24", "Gigobooma", "37", "Savage Wolf", "25", "Barbarous Wolf", "18", "Mothmant", "0", "Monest", "1", "Hildebear", "11"},
@@ -456,9 +460,13 @@ return {
 ["Total"] = {"Dimenian", "78", "La Dimenian", "73", "So Dimenian", "67", "Claw", "127", "Bulclaw", "49", "Dark Gunner", "53", "Delsaber", "48", "Chaos Sorcerer", "44", "Dark Belra", "55", "Chaos Bringer", "39", "", "", "Dark Falz", "1"}},
 
 ["Lost Son Jim"] = {[0] = "Lost Son Jim", "Cave 2", "Cave 3", "Total",
-["Cave 2"] = {"Evil Shark", "70", "Pal Shark", "28", "Guil Shark", "26", "Grass Assassin", "13", "Nano Dragon", "17", "Poison Lily", "27", "Pofuilly Slime", "4", "Pan Arms", "5"},
-["Cave 3"] = {"Evil Shark", "119", "Pal Shark", "58", "Guil Shark", "62", "Grass Assassin", "30", "Nano Dragon", "29", "Poison Lily", "55", "Pofuilly Slime", "9", "Pan Arms", "9"},
-["Total"] = {"Evil Shark", "189", "Pal Shark", "86", "Guil Shark", "88", "Grass Assassin", "43", "Nano Dragon", "46", "Poison Lily", "82", "Pofuilly Slime", "13", "Pan Arms", "14"}},
+["Cave 2"] = {"Evil Shark", "70", "Pal Shark", "28", "Guil Shark", "26", "Poison Lily", "27", "Pofuilly Slime", "4", "Grass Assassin", "13", "Nano Dragon", "17", "Pan Arms", "5"},
+["Cave 3"] = {"Evil Shark", "119", "Pal Shark", "58", "Guil Shark", "62", "Poison Lily", "55", "Pofuilly Slime", "9", "Grass Assassin", "30", "Nano Dragon", "29", "Pan Arms", "9"},
+["Total"] = {"Evil Shark", "189", "Pal Shark", "86", "Guil Shark", "88", "Poison Lily", "82", "Pofuilly Slime", "13", "Grass Assassin", "43", "Nano Dragon", "46", "Pan Arms", "14"}},
+
+["Subterranean Patrol #1"] = {[0] = "Subterranean Patrol #1", "Cave 3", "Total",
+["Cave 3"] = {"Evil Shark", "55", "Pal Shark", "52", "Guil Shark", "20", "Poison Lily", "42", "Pofuilly Slime", "6", "Nano Dragon", "12", "Pan Arms", "4"},
+["Total"] = {"Evil Shark", "55", "Pal Shark", "52", "Guil Shark", "20", "Poison Lily", "42", "Pofuilly Slime", "6", "Nano Dragon", "12", "Pan Arms", "4"}},
 
 --Shop
 
@@ -513,12 +521,20 @@ return {
 ["Total"] = {"Booma", "36", "Gobooma", "25", "Gigobooma", "21", "Savage Wolf", "23", "Barbarous Wolf", "7", "Rag Rappy", "19", "Hildebear", "7", "", "", "Evil Shark", "75", "Pal Shark", "61", "Guil Shark", "30", "Poison Lily", "29", "Pofuilly Slime", "4", "Grass Assassin", "10", "Nano Dragon", "12", "Pan Arms", "15", "", "", "Gillchic", "69", "Dubchic", "12", "Dubwitch", "3", "Canadine", "31", "Canane", "2", "Sinow Beat", "16", "Sinow Gold", "3", "Garanz", "3", "", "", "Dimenian", "52", "La Dimenian", "36", "So Dimenian", "6", "Delsaber", "59", "Claw", "64", "Bulclaw", "3", "Dark Gunner", "19", "Chaos Sorcerer", "11", "Dark Belra", "9", "Chaos Bringer", "2", "", "", "Dragon", "1", "De Rol Le", "1", "Vol Opt", "1", "Dark Falz", "1"}},
 
 ["Virtual Limits 1"] = {[0] = "Virtual Limits 1", "Palace", "Total",
-["Palace"] = {"Dimenian", "55", "La Dimenian", "42", "So Dimenian", "47 (+1)", "Poison Lily", "39 (+5)", "Rag Rappy", "28", "Mothmant", "0", "Monest", "8", "Hildebear", "19 (+3)", "Grass Assassin", "31", "Dark Belra", "24"},
-["Total"] = {"Dimenian", "55", "La Dimenian", "42", "So Dimenian", "47 (+1)", "Poison Lily", "39 (+5)", "Rag Rappy", "28", "Mothmant", "0", "Monest", "8", "Hildebear", "19 (+3)", "Grass Assassin", "31", "Dark Belra", "24"}},
+["Palace"] = {"Dimenian", "55", "La Dimenian", "42", "So Dimenian", "47 (+1)", "Poison Lily", "39 (+5)", "Rag Rappy", "28", "Mothmant", "0", "Monest", "8", "Grass Assassin", "31", "Hildebear", "19 (+3)", "Dark Belra", "24"},
+["Total"] = {"Dimenian", "55", "La Dimenian", "42", "So Dimenian", "47 (+1)", "Poison Lily", "39 (+5)", "Rag Rappy", "28", "Mothmant", "0", "Monest", "8", "Grass Assassin", "31", "Hildebear", "19 (+3)", "Dark Belra", "24"}},
 
 ["Virtual Limits 2"] = {[0] = "Virtual Limits 2", "Spaceship", "Total",
-["Spaceship"] = {"Gillchic", "100", "Dubchic", "29", "Dubwitch", "Unknown", "Savage Wolf", "75", "Barbarous Wolf", "39 (+6)", "Pan Arms", "9 (+6)", "Garanz", "19 (+1)", "Delsaber", "49", "Chaos Sorcerer", "25"},
-["Total"] = {"Gillchic", "100", "Dubchic", "29", "Dubwitch", "Unknown", "Savage Wolf", "75", "Barbarous Wolf", "39 (+6)", "Pan Arms", "9 (+6)", "Garanz", "19 (+1)", "Delsaber", "49", "Chaos Sorcerer", "25"}},
+["Spaceship"] = {"Gillchic", "100", "Dubchic", "29", "Dubwitch", "Unknown", "Savage Wolf", "75", "Barbarous Wolf", "39 (+6)", "Delsaber", "49", "Chaos Sorcerer", "25", "Garanz", "19 (+1)", "Pan Arms", "9 (+6)"},
+["Total"] = {"Gillchic", "100", "Dubchic", "29", "Dubwitch", "Unknown", "Savage Wolf", "75", "Barbarous Wolf", "39 (+6)", "Delsaber", "49", "Chaos Sorcerer", "25", "Garanz", "19 (+1)", "Pan Arms", "9 (+6)"}},
+
+["Virtual Vortex 1"] = {[0] = "Virtual Vortex 1", "Palace", "Total",
+["Palace"] = {"Dimenian", "34", "La Dimenian", "25", "So Dimenian", "35 (+1)", "Poison Lily", "27 (+5)", "Rag Rappy", "23", "Mothmant", "0", "Monest", "8", "Grass Assassin", "30", "Hildebear", "6 (+3)", "Dark Belra", "21"},
+["Total"] = {"Dimenian", "34", "La Dimenian", "25", "So Dimenian", "35 (+1)", "Poison Lily", "27 (+5)", "Rag Rappy", "23", "Mothmant", "0", "Monest", "8", "Grass Assassin", "30", "Hildebear", "6 (+3)", "Dark Belra", "21"}},
+
+["Virtual Vortex 2"] = {[0] = "Virtual Vortex 2", "Spaceship", "Total",
+["Spaceship"] = {"Gillchic", "78", "Dubchic", "26", "Dubwitch", "Unknown", "Savage Wolf", "54", "Barbarous Wolf", "33 (+6)", "Delsaber", "21", "Chaos Sorcerer", "17", "Garanz", "17 (+1)", "Pan Arms", "7 (+6)"},
+["Total"] = {"Gillchic", "78", "Dubchic", "26", "Dubwitch", "Unknown", "Savage Wolf", "54", "Barbarous Wolf", "33 (+6)", "Delsaber", "21", "Chaos Sorcerer", "17", "Garanz", "17 (+1)", "Pan Arms", "7 (+6)"}},
 
 --Solo Only
 ["Gallon's Plan"] = {[0] = "Gallon's Plan", "Forest 1", "Forest 2", "Total",
