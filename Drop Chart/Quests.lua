@@ -316,8 +316,8 @@ return {
 ["Total"] = {"Evil Shark", "68", "Pal Shark", "30", "Guil Shark", "27", "Poison Lily", "39", "Pofuilly Slime", "16", "Nano Dragon", "20", "Pan Arms", "9", "", "", "Gillchic", "83", "Dubchic", "39", "Dubwitch", "13", "Canadine", "83", "Canane", "4", "Sinow Beat", "34", "Sinow Gold", "39", "Garanz", "34"}},
 
 ["Ruins Wreckage"] = {[0] = "Ruins Wreckage", "Ruins 1", "Total",
-["Ruins 1"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "12 (+3)", "Dark Belra", "22"},
-["Total"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "12 (+3)", "Dark Belra", "22"}},
+["Ruins 1"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "11 (+4)", "Dark Belra", "22"},
+["Total"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "11 (+4)", "Dark Belra", "22"}},
 
 --Maximum Attack
 ["MAXIMUM ATTACK 1 Ver2"] = {[0] = "MAXIMUM ATTACK 1 Ver2", "Forest 2", "Cave 3", "Mine 2", "Total",
