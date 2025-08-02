@@ -605,6 +605,7 @@ return{
 ["mae vr"] = "Maximum Attack E: VR",
 
 --Maximum Attack E: Gal Da Val
+["gdv"] = "Maximum Attack E: Gal Da Val",
 ["maegdv"] = "Maximum Attack E: Gal Da Val",
 ["mae gdv"] = "Maximum Attack E: Gal Da Val",
 
