@@ -41,7 +41,8 @@ end
 local function present()
     if window_open then
         imgui.SetNextWindowSize(700, 520, "FirstUseEver");
-        imgui.Begin("Drop Chart")
+        local s
+        s, window_open = imgui.Begin("Drop Chart", window_open)
 
         local DW = imgui.CalcTextSize("Very Hard") + 32
         local RW = imgui.CalcTextSize("000") + 10
