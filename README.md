@@ -1,8 +1,6 @@
 # Ephinea Drop Chart
 Addon to show the Ephinea Drop Chart in game.
 
-When changing DAR or RDR drop rates might not be 100% correct.
-
 Quest names currently support full case sensitive names or abbreviations. You can find all supported abbreviations in short.lua.
 
 ### Requirements
