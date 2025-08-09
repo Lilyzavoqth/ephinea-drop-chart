@@ -183,7 +183,7 @@ local function present()
                             if DAR / 100 > 100 / ItemDAR then
                                 ItemRate = ItemRate / (100 / ItemDAR)
                             else
-                                ItemRate = ItemRate / (DAR / 100)
+                                ItemRate = ItemRate / (math.floor((DAR / 100) * ItemDAR) / ItemDAR)
                             end
                             if RDR / 100 > 87.5 / ItemRDR then
                                 ItemRate = ItemRate / (87.5 / ItemRDR)
@@ -239,7 +239,7 @@ local function present()
                                     if DAR / 100 > 100 / ItemDAR then
                                         ItemRate = ItemRate / (100 / ItemDAR)
                                     else
-                                        ItemRate = ItemRate / (DAR / 100)
+                                        ItemRate = ItemRate / (math.floor((DAR / 100) * ItemDAR) / ItemDAR)
                                     end
                                     if RDR / 100 > 87.5 / ItemRDR then
                                         ItemRate = ItemRate / (87.5 / ItemRDR)
@@ -329,7 +329,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.0",
+    version = "2.1",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present
