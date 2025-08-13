@@ -93,8 +93,8 @@ local function present()
         success, QuestUpdate = imgui.InputText("", QuestUpdate, 100)
         imgui.PopItemWidth()
         if success then
-            if S[QuestUpdate] ~= nil then
-                QuestName = S[QuestUpdate]
+            if S[string.lower(string.gsub(QuestUpdate, "%s+", ""))] ~= nil then
+                QuestName = S[string.lower(string.gsub(QuestUpdate, "%s+", ""))]
             elseif Q[QuestUpdate] ~= nil then
                 QuestName = Q[QuestUpdate][0]
             else

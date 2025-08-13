@@ -212,22 +212,18 @@ return{
 --Maximum Attack 4th Stage -1A-
 ["ma1a"] = "Maximum Attack 4th Stage -1A-",
 ["ma41a"] = "Maximum Attack 4th Stage -1A-",
-["ma4 1a"] = "Maximum Attack 4th Stage -1A-",
 
 --Maximum Attack 4th Stage -1B-
 ["ma1b"] = "Maximum Attack 4th Stage -1B-",
 ["ma41b"] = "Maximum Attack 4th Stage -1B-",
-["ma4 1b"] = "Maximum Attack 4th Stage -1B-",
 
 --Maximum Attack 4th Stage -1C-
 ["ma1c"] = "Maximum Attack 4th Stage -1C-",
 ["ma41c"] = "Maximum Attack 4th Stage -1C-",
-["ma4 1c"] = "Maximum Attack 4th Stage -1C-",
 
 --Maximum Attack 4th Stage -1R-
 ["ma1r"] = "Maximum Attack 4th Stage -1R-",
 ["ma41r"] = "Maximum Attack 4th Stage -1R-",
-["ma4 1r"] = "Maximum Attack 4th Stage -1R-",
 
 --Random Attack Xrd Stage
 ["xrd1"] = "Random Attack Xrd Stage (E1)",
@@ -238,7 +234,6 @@ return{
 --Random Attack Xrd REV 1
 ["rev1"] = "Random Attack Xrd REV 1",
 ["xrdrev1"] = "Random Attack Xrd REV 1",
-["xrd rev1"] = "Random Attack Xrd REV 1",
 
 
 
@@ -321,7 +316,6 @@ return{
 --Endless: Episode 1
 ["ee1"] = "Endless: Episode 1",
 ["endlesse1"] = "Endless: Episode 1",
-["endless e1"] = "Endless: Episode 1",
 
 --Virtual Limits 1
 ["vl1"] = "Virtual Limits 1",
@@ -363,30 +357,29 @@ return{
 ["dd1"] = "December Disaster #1",
 
 --Maximum Attack E: Forest
+["maef"] = "Maximum Attack E: Forest",
+["maefo"] = "Maximum Attack E: Forest",
 ["maefor"] = "Maximum Attack E: Forest",
-["mae for"] = "Maximum Attack E: Forest",
 ["maeforest"] = "Maximum Attack E: Forest",
-["mae forest"] = "Maximum Attack E: Forest",
 
 --Maximum Attack E: Cave
+["maec"] = "Maximum Attack E: Cave",
+["maeca"] = "Maximum Attack E: Cave",
 ["maecav"] = "Maximum Attack E: Cave",
-["mae cav"] = "Maximum Attack E: Cave",
 ["maecave"] = "Maximum Attack E: Cave",
-["mae cave"] = "Maximum Attack E: Cave",
 
 --Maximum Attack E: Mine
+["maem"] = "Maximum Attack E: Mine",
+["maemi"] = "Maximum Attack E: Mine",
 ["maemin"] = "Maximum Attack E: Mine",
-["mae min"] = "Maximum Attack E: Mine",
 ["maemine"] = "Maximum Attack E: Mine",
-["mae mine"] = "Maximum Attack E: Mine",
 
 --Maximum Attack E: Ruins
+["maer"] = "Maximum Attack E: Ruins",
+["maeru"] = "Maximum Attack E: Ruins",
 ["maerui"] = "Maximum Attack E: Ruins",
-["mae rui"] = "Maximum Attack E: Ruins",
 ["maeruin"] = "Maximum Attack E: Ruins",
-["mae ruin"] = "Maximum Attack E: Ruins",
 ["maeruins"] = "Maximum Attack E: Ruins",
-["mae ruins"] = "Maximum Attack E: Ruins",
 
 --August Atrocity 1
 ["aa1"] = "August Atrocity 1",
@@ -397,45 +390,28 @@ return{
 --Halloween
 --Hollow Battlefield: Forest
 ["cfor"] = "Hollow Battlefield: Forest",
-["c for"] = "Hollow Battlefield: Forest",
 ["cforest"] = "Hollow Battlefield: Forest",
-["c forest"] = "Hollow Battlefield: Forest",
 ["cookiefor"] = "Hollow Battlefield: Forest",
-["cookie for"] = "Hollow Battlefield: Forest",
 ["cookieforest"] = "Hollow Battlefield: Forest",
-["cookie forest"] = "Hollow Battlefield: Forest",
 
 --Hollow Battlefield: Cave
 ["ccav"] = "Hollow Battlefield: Cave",
-["c cav"] = "Hollow Battlefield: Cave",
 ["ccave"] = "Hollow Battlefield: Cave",
-["c cave"] = "Hollow Battlefield: Cave",
 ["cookiecav"] = "Hollow Battlefield: Cave",
-["cookie cav"] = "Hollow Battlefield: Cave",
 ["cookiecave"] = "Hollow Battlefield: Cave",
-["cookie cave"] = "Hollow Battlefield: Cave",
 
 --Hollow Battlefield: Mine
 ["cmin"] = "Hollow Battlefield: Mine",
-["c min"] = "Hollow Battlefield: Mine",
 ["cmine"] = "Hollow Battlefield: Mine",
-["c mine"] = "Hollow Battlefield: Mine",
 ["cookiemin"] = "Hollow Battlefield: Mine",
-["cookie min"] = "Hollow Battlefield: Mine",
 ["cookiemine"] = "Hollow Battlefield: Mine",
-["cookie mine"] = "Hollow Battlefield: Mine",
 
 --Hollow Battlefield: Ruins
 ["crui"] = "Hollow Battlefield: Ruins",
-["c rui"] = "Hollow Battlefield: Ruins",
 ["cruin"] = "Hollow Battlefield: Ruins",
-["c ruin"] = "Hollow Battlefield: Ruins",
 ["cookierui"] = "Hollow Battlefield: Ruins",
-["cookie rui"] = "Hollow Battlefield: Ruins",
 ["cookieruin"] = "Hollow Battlefield: Ruins",
-["cookie ruin"] = "Hollow Battlefield: Ruins",
 ["cookieruins"] = "Hollow Battlefield: Ruins",
-["cookie ruins"] = "Hollow Battlefield: Ruins",
 
 
 
@@ -580,41 +556,33 @@ return{
 --Maximum Attack 4th Stage -2A-
 ["ma2a"] = "Maximum Attack 4th Stage -2A-",
 ["ma42a"] = "Maximum Attack 4th Stage -2A-",
-["ma4 2a"] = "Maximum Attack 4th Stage -2A-",
 
 --Maximum Attack 4th Stage -2B-
 ["ma2b"] = "Maximum Attack 4th Stage -2B-",
 ["ma42b"] = "Maximum Attack 4th Stage -2B-",
-["ma4 2b"] = "Maximum Attack 4th Stage -2B-",
 
 --Maximum Attack 4th Stage -2C-
 ["ma2c"] = "Maximum Attack 4th Stage -2C-",
 ["ma42c"] = "Maximum Attack 4th Stage -2C-",
-["ma4 2c"] = "Maximum Attack 4th Stage -2C-",
 
 --Maximum Attack 4th Stage -2R-
 ["ma2r"] = "Maximum Attack 4th Stage -2R-",
 ["ma42r"] = "Maximum Attack 4th Stage -2R-",
-["ma4 2r"] = "Maximum Attack 4th Stage -2R-",
 
 --Random Attack Xrd Stage
 ["xrd2"] = "Random Attack Xrd Stage (E2)",
 
 --Maximum Attack E: VR
 ["maevr"] = "Maximum Attack E: VR",
-["mae vr"] = "Maximum Attack E: VR",
 
 --Maximum Attack E: Gal Da Val
 ["gdv"] = "Maximum Attack E: Gal Da Val",
 ["maegdv"] = "Maximum Attack E: Gal Da Val",
-["mae gdv"] = "Maximum Attack E: Gal Da Val",
 
 --Random Attack Xrd REV 2
 ["rev2"] = "Random Attack Xrd REV 1",
 ["xrdrev2"] = "Random Attack Xrd REV 2",
-["xrd rev2"] = "Random Attack Xrd REV 2",
 ["xrd2rev2"] = "Random Attack Xrd REV 2",
-["xrd2 rev2"] = "Random Attack Xrd REV 2",
 
 
 
@@ -699,7 +667,6 @@ return{
 --Endless: Episode 2
 ["ee2"] = "Endless: Episode 2",
 ["endlesse2"] = "Endless: Episode 2",
-["endless e2"] = "Endless: Episode 2",
 
 
 
@@ -730,34 +697,31 @@ return{
 ["rhal"] = "Rappy Halloween",
 
 --Maximum Attack E: Temple
+["maet"] = "Maximum Attack E: Temple",
+["maete"] = "Maximum Attack E: Temple",
 ["maetem"] = "Maximum Attack E: Temple",
-["mae tem"] = "Maximum Attack E: Temple",
 ["maetemple"] = "Maximum Attack E: Temple",
-["mae temple"] = "Maximum Attack E: Temple",
 
 --Maximum Attack E: Spaceship
+["maes"] = "Maximum Attack E: Spaceship",
+["maesp"] = "Maximum Attack E: Spaceship",
 ["maespa"] = "Maximum Attack E: Spaceship",
-["mae spa"] = "Maximum Attack E: Spaceship",
 ["maespace"] = "Maximum Attack E: Spaceship",
-["mae space"] = "Maximum Attack E: Spaceship",
 ["maespaceship"] = "Maximum Attack E: Spaceship",
-["mae spaceship"] = "Maximum Attack E: Spaceship",
 
 --Maximum Attack E: CCA
+["maecc"] = "Maximum Attack E: CCA",
 ["maecca"] = "Maximum Attack E: CCA",
-["mae cca"] = "Maximum Attack E: CCA",
 
 --Maximum Attack E: Seabed
+["maese"] = "Maximum Attack E: Seabed",
 ["maesea"] = "Maximum Attack E: Seabed",
-["mae sea"] = "Maximum Attack E: Seabed",
 ["maeseabed"] = "Maximum Attack E: Seabed",
-["mae seabed"] = "Maximum Attack E: Seabed",
 
 --Maximum Attack E: Tower
+["maeto"] = "Maximum Attack E: Tower",
 ["maetow"] = "Maximum Attack E: Tower",
-["mae tow"] = "Maximum Attack E: Tower",
 ["maetower"] = "Maximum Attack E: Tower",
-["mae tower"] = "Maximum Attack E: Tower",
 
 --August Atrocity 2
 ["aa2"] = "August Atrocity 2",
@@ -768,55 +732,34 @@ return{
 --Halloween
 --Hollow Reality: Temple
 ["ctem"] = "Hollow Reality: Temple",
-["c tem"] = "Hollow Reality: Temple",
 ["ctemple"] = "Hollow Reality: Temple",
-["c temple"] = "Hollow Reality: Temple",
 ["cookietem"] = "Hollow Reality: Temple",
-["cookie tem"] = "Hollow Reality: Temple",
 ["cookietemple"] = "Hollow Reality: Temple",
-["cookie temple"] = "Hollow Reality: Temple",
 
 --Hollow Reality: Spaceship
 ["cspa"] = "Hollow Reality: Spaceship",
-["c spa"] = "Hollow Reality: Spaceship",
 ["cspace"] = "Hollow Reality: Spaceship",
-["c space"] = "Hollow Reality: Spaceship",
 ["cookiespa"] = "Hollow Reality: Spaceship",
-["cookie spa"] = "Hollow Reality: Spaceship",
 ["cookiespace"] = "Hollow Reality: Spaceship",
-["cookie space"] = "Hollow Reality: Spaceship",
 ["cookiespaceship"] = "Hollow Reality: Spaceship",
-["cookie spaceship"] = "Hollow Reality: Spaceship",
 
 --Hollow Phantasm: Jungle
 ["cjun"] = "Hollow Phantasm: Jungle",
-["c jun"] = "Hollow Phantasm: Jungle",
 ["cjung"] = "Hollow Phantasm: Jungle",
-["c jung"] = "Hollow Phantasm: Jungle",
 ["cookiejun"] = "Hollow Phantasm: Jungle",
-["cookie jun"] = "Hollow Phantasm: Jungle",
 ["cookiejung"] = "Hollow Phantasm: Jungle",
-["cookie jung"] = "Hollow Phantasm: Jungle",
 ["cookiejungle"] = "Hollow Phantasm: Jungle",
-["cookie jungle"] = "Hollow Phantasm: Jungle",
 
 --Hollow Phantasm: Seabed
 ["csea"] = "Hollow Phantasm: Seabed",
-["c sea"] = "Hollow Phantasm: Seabed",
 ["cookiesea"] = "Hollow Phantasm: Seabed",
-["cookie sea"] = "Hollow Phantasm: Seabed",
 ["cookieseabed"] = "Hollow Phantasm: Seabed",
-["cookie seabed"] = "Hollow Phantasm: Seabed",
 
 --Hollow Phantasm: Tower
 ["ctow"] = "Hollow Phantasm: Tower",
-["c tow"] = "Hollow Phantasm: Tower",
 ["ctower"] = "Hollow Phantasm: Tower",
-["c tower"] = "Hollow Phantasm: Tower",
 ["cookietow"] = "Hollow Phantasm: Tower",
-["cookie tow"] = "Hollow Phantasm: Tower",
 ["cookietower"] = "Hollow Phantasm: Tower",
-["cookie tower"] = "Hollow Phantasm: Tower",
 
 
 
@@ -941,27 +884,22 @@ return{
 --Maximum Attack
 --MAXIMUM ATTACK 3 Ver2
 ["ma3v2"] = "MAXIMUM ATTACK 3 Ver2",
-["ma3 v2"] = "MAXIMUM ATTACK 3 Ver2",
 
 --Maximum Attack 4th Stage -4A-
 ["ma4a"] = "Maximum Attack 4th Stage -4A-",
 ["ma44a"] = "Maximum Attack 4th Stage -4A-",
-["ma4 4a"] = "Maximum Attack 4th Stage -4A-",
 
 --Maximum Attack 4th Stage -4B-
 ["ma4b"] = "Maximum Attack 4th Stage -4B-",
 ["ma44b"] = "Maximum Attack 4th Stage -4B-",
-["ma4 4b"] = "Maximum Attack 4th Stage -4B-",
 
 --Maximum Attack 4th Stage -4C-
 ["ma4c"] = "Maximum Attack 4th Stage -4C-",
 ["ma44c"] = "Maximum Attack 4th Stage -4C-",
-["ma4 4c"] = "Maximum Attack 4th Stage -4C-",
 
 --Maximum Attack 4th Stage -4R-
 ["ma4r"] = "Maximum Attack 4th Stage -4R-",
 ["ma44r"] = "Maximum Attack 4th Stage -4R-",
-["ma4 4r"] = "Maximum Attack 4th Stage -4R-",
 
 --Maximum Attack E: Episode 4
 ["mae4"] = "Maximum Attack E: Episode 4",
@@ -970,7 +908,6 @@ return{
 --Random Attack Xrd REV 4
 ["rev4"] = "Random Attack Xrd REV 4",
 ["xrdrev4"] = "Random Attack Xrd REV 4",
-["xrd rev4"] = "Random Attack Xrd REV 4",
 
 
 
@@ -1007,16 +944,15 @@ return{
 ["cf4"] = "Christmas Fiasco (E4)",
 
 --Maximum Attack E: Crater
+["maecr"] = "Maximum Attack E: Crater",
 ["maecra"] = "Maximum Attack E: Crater",
-["mae cra"] = "Maximum Attack E: Crater",
 ["maecrater"] = "Maximum Attack E: Crater",
-["mae crater"] = "Maximum Attack E: Crater",
 
 --Maximum Attack E: Desert
+["maed"] = "Maximum Attack E: Desert",
+["maede"] = "Maximum Attack E: Desert",
 ["maedes"] = "Maximum Attack E: Desert",
-["mae des"] = "Maximum Attack E: Desert",
 ["maedesert"] = "Maximum Attack E: Desert",
-["mae desert"] = "Maximum Attack E: Desert",
 
 
 
@@ -1024,21 +960,13 @@ return{
 --Halloween
 --Hollow Wasteland: Wilderness
 ["ccra"] = "Hollow Wasteland: Wilderness",
-["c cra"] = "Hollow Wasteland: Wilderness",
 ["ccrat"] = "Hollow Wasteland: Wilderness",
-["c crat"] = "Hollow Wasteland: Wilderness",
 ["cookiecra"] = "Hollow Wasteland: Wilderness",
-["cookie cra"] = "Hollow Wasteland: Wilderness",
 ["cookiecrat"] = "Hollow Wasteland: Wilderness",
-["cookie crat"] = "Hollow Wasteland: Wilderness",
 ["cookiecrater"] = "Hollow Wasteland: Wilderness",
-["cookie crater"] = "Hollow Wasteland: Wilderness",
 
 --Hollow Wasteland: Desert
 ["cdes"] = "Hollow Wasteland: Desert",
-["c des"] = "Hollow Wasteland: Desert",
 ["cookiedes"] = "Hollow Wasteland: Desert",
-["cookie des"] = "Hollow Wasteland: Desert",
 ["cookiedesert"] = "Hollow Wasteland: Desert",
-["cookie desert"] = "Hollow Wasteland: Desert"
 }
