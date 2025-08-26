@@ -10,6 +10,7 @@ local BU = require("Drop Chart.Boxes Ultimate")
 local E = require("Drop Chart.Enemies")
 local EE = require("Drop Chart.Enemies Extra")
 local A = require("Drop Chart.Areas")
+local AA = require("Drop Chart.Attributes")
 local AB = require("Drop Chart.Areas Boxes")
 local Q = require("Drop Chart.Quests")
 local QB = require("Drop Chart.Quests Boxes")
@@ -19,6 +20,7 @@ local success
 
 local DAR = 100
 local RDR = 100
+local RER = 100
 
 local QuestName = "Quest"
 local QuestUpdate = ""
@@ -79,6 +81,11 @@ local function present()
         imgui.PopItemWidth()
 
         imgui.SameLine()
+        imgui.PushItemWidth(RW)
+        success, RER = imgui.InputInt("RER", RER, 0)
+        imgui.PopItemWidth()
+
+        imgui.SameLine()
         if imgui.Checkbox("Boxes", Boxes) then
             Boxes = not Boxes
         end
@@ -115,10 +122,33 @@ local function present()
         imgui.Text(QuestName)
         imgui.SameLine()
         imgui.Text("|")
-        for i = 1, table.getn(Q[QuestName]) - 1, 1 do
+        for i = 1, table.getn(Quest) - 1, 1 do
             imgui.SameLine()
             imgui.Text(A[Q[QuestName][i]])
-            if i ~= table.getn(Q[QuestName]) - 1 then
+            if Quest[0] ~= "Default" and A[Quest[i]] ~= "Bosses" then
+                if imgui.IsItemHovered() then
+                    imgui.BeginTooltip()
+                    imgui.Text(A[Quest[i]] .. " | " .. AA[Quest[i]][Dif])
+                    imgui.EndTooltip()
+                end
+            elseif A[Quest[i]] == "Bosses" then
+                if imgui.IsItemHovered() then
+                    imgui.BeginTooltip()
+                    for k = 1, table.getn(Quest["Bosses"]), 2 do
+                        imgui.Text(AA[Quest["Bosses"][k]] .. " | " .. AA[AA[Quest["Bosses"][k]]][Dif])
+                    end
+                    imgui.EndTooltip()
+                end
+            elseif Quest[0] == "Default" then
+                if imgui.IsItemHovered() then
+                    imgui.BeginTooltip()
+                    for k = 1, table.getn(AA[Quest[i]]), 1 do
+                        imgui.Text(AA[Quest[i]][k] .. " | " .. AA[AA[Quest[i]][k]][Dif])
+                    end
+                    imgui.EndTooltip()
+                end
+            end
+            if i ~= table.getn(Quest) - 1 then
                 imgui.SameLine(0, 1)
                 imgui.Text(",")
             end
@@ -128,15 +158,15 @@ local function present()
         for i = 1, 10, 1 do
             imgui.SetColumnOffset(i, namePad + (i - 1) * xCol)
         end
+        for j = 1, 11, 1 do
+            imgui.Text("")
+            imgui.NextColumn()
+        end
 
         if not Boxes then
             for i = 1, table.getn(Quest) - 1, 1 do
                 if Total and Quest[0] ~= "Default" then
                     i = table.getn(Quest)
-                end
-                for j = 1, 11, 1 do
-                    imgui.Text("")
-                    imgui.NextColumn()
                 end
                 if i ~= 1 and i ~= table.getn(Quest) then
                     for j = 1, 22, 1 do
@@ -147,6 +177,43 @@ local function present()
                 --Area Name
                 imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(A[Quest[i]])) / 2)
                 imgui.Text(A[Quest[i]])
+                if not Total and Quest[0] ~= "Default" and A[Quest[i]] ~= "Bosses" then
+                    if imgui.IsItemHovered() then
+                        imgui.BeginTooltip()
+                        imgui.Text(A[Quest[i]] .. " | " .. AA[Quest[i]][Dif])
+                        imgui.EndTooltip()
+                    end
+                elseif Total and Quest[0] ~= "Default" then
+                    if imgui.IsItemHovered() then
+                        imgui.BeginTooltip()
+                        for k = 1, table.getn(Quest) - 1, 1 do
+                            if A[Quest[k]] ~= "Bosses" then
+                                imgui.Text(A[Quest[k]] .. " | " .. AA[Quest[k]][Dif])
+                            else
+                                for k = 1, table.getn(Quest["Bosses"]), 2 do
+                                imgui.Text(AA[Quest["Bosses"][k]] .. " | " .. AA[AA[Quest["Bosses"][k]]][Dif])
+                                end
+                            end
+                        end
+                        imgui.EndTooltip()
+                    end
+                elseif A[Quest[i]] == "Bosses" then
+                    if imgui.IsItemHovered() then
+                        imgui.BeginTooltip()
+                        for k = 1, table.getn(Quest["Bosses"]), 2 do
+                            imgui.Text(AA[Quest["Bosses"][k]] .. " | " .. AA[AA[Quest["Bosses"][k]]][Dif])
+                        end
+                        imgui.EndTooltip()
+                    end
+                elseif Quest[0] == "Default" then
+                    if imgui.IsItemHovered() then
+                        imgui.BeginTooltip()
+                        for k = 1, table.getn(AA[Quest[i]]), 1 do
+                            imgui.Text(AA[Quest[i]][k] .. " | " .. AA[AA[Quest[i]][k]][Dif])
+                        end
+                        imgui.EndTooltip()
+                    end
+                end
                 imgui.NextColumn()
                 for j = 1, 10, 1 do
                     --Section ID
@@ -159,7 +226,9 @@ local function present()
                 for j = 1, table.getn(Area), 2 do
                     --Monster Name
                     imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(E[Area[j]][Dif])) / 2)
-                    if Area[j+1] == "" then
+                    if Area[j+1] == "" and not (Area[j] == "Al Rappy" or Area[j] == "Hildeblue" or Area[j] == "Nar Lily" or Area[j] == "Pouilly Slime"
+                        or Area[j] == "Nar Lily E2" or Area[j] == "Love Rappy" or Area[j] == "St Rappy" or Area[j] == "Hallo Rappy" or Area[j] == "Egg Rappy" or Area[j] == "Hildeblue E2"
+                        or Area[j] == "Del Rappy" or Area[j] == "Pazuzu" or Area[j] == "Dorphon Eclair" or Area[j] == "Merissa AA" or Area[j] == "Kondrieu") then
                         local cPosY= imgui.GetCursorPosY()
                         imgui.SetCursorPosY(imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
                         imgui.Text(E[Area[j]][Dif])
@@ -167,10 +236,23 @@ local function present()
                     else
                         imgui.Text(E[Area[j]][Dif])
                     end
+                    --Rare Monster Rate
+                    if Area[j] == "Al Rappy" or Area[j] == "Hildeblue" or Area[j] == "Nar Lily" or Area[j] == "Pouilly Slime"
+                        or Area[j] == "Nar Lily E2" or Area[j] == "Love Rappy" or Area[j] == "St Rappy" or Area[j] == "Hallo Rappy" or Area[j] == "Egg Rappy" or Area[j] == "Hildeblue E2"
+                        or Area[j] == "Del Rappy" or Area[j] == "Pazuzu" or Area[j] == "Dorphon Eclair" or Area[j] == "Merissa AA" or Area[j] == "Kondrieu" then
+                        local EnemyRER = "1/" .. math.floor(500 / (RER / 100) * 100) / 100
+                        if Area[j] == "Kondrieu" then
+                            EnemyRER = "1/" .. math.floor(10 / (RER / 100) * 100) / 100
+                        end
+                        imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(EnemyRER)) / 2)
+                        imgui.Text(EnemyRER)
+                        imgui.NextColumn()
+                    else
                     --Monster Count
                     imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(Area[j+1])) / 2)
                     imgui.Text(Area[j+1])
                     imgui.NextColumn()
+                    end
                     for k = 1, 40, 4 do
                         --Item Name
                         imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(D[Dif][Area[j]][k]) - 16) / 2)
@@ -215,7 +297,7 @@ local function present()
                         for k = 1, table.getn(EE[Area[j]]), 2 do
                             --Monster Name
                             imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(E[EE[Area[j]][k]][Dif])) / 2)
-                            if EE[Area[j]][k+1] == "" then
+                            if EE[Area[j]][k+1] == "" and (Area[j] == "Pan Arms" or Area[j] == "Bulclaw" or Area[j] == "Pan Arms E2") then
                                 local cPosY= imgui.GetCursorPosY()
                                 imgui.SetCursorPosY(imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
                                 imgui.Text(E[EE[Area[j]][k]][Dif])
@@ -223,10 +305,23 @@ local function present()
                             else
                                 imgui.Text(E[EE[Area[j]][k]][Dif])
                             end
+                            --Rare Monster Rate
+                            if Quest[0] ~= "Default" and (Area[j] == "Rag Rappy" or Area[j] == "Hildebear" or Area[j] == "Poison Lily" or Area[j] == "Pofuilly Slime"
+                                or Area[j] == "Poison Lily E2" or Area[j] == "Rag Rappy E2" or Area[j] == "Hildebear E2"
+                                or Area[j] == "Sand Rappy" or Area[j] == "Zu" or Area[j] == "Dorphon" or Area[j] == "Merissa A" or Area[j] == "Saint Million" or Area[j] == "Shambertin") then
+                                local EnemyRER = "1/" .. math.floor(500 / (RER / 100) * 100) / 100
+                                if Area[j] == "Kondrieu" then
+                                    EnemyRER = "1/" .. math.floor(10 / (RER / 100) * 100) / 100
+                                end
+                                imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(EnemyRER)) / 2)
+                                imgui.Text(EnemyRER)
+                                imgui.NextColumn()
+                            else
                             --Monster Count
                             imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(EE[Area[j]][k+1])) / 2)
                             imgui.Text(EE[Area[j]][k+1])
                             imgui.NextColumn()
+                            end
                             for l = 1, 40, 4 do
                                 --Item Name
                                 imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(D[Dif][EE[Area[j]][k]][l]) - 16) / 2)
@@ -273,10 +368,6 @@ local function present()
             end
         else
             for i = 1, table.getn(Box), 1 do
-                for j = 1, 11, 1 do
-                    imgui.Text("")
-                    imgui.NextColumn()
-                end
                 if i ~= 1 then
                     for j = 1, 22, 1 do
                         imgui.Text("")
@@ -286,6 +377,11 @@ local function present()
                 --Area Name
                 imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(A[Box[i]])) / 2)
                 imgui.Text(A[Box[i]])
+                if imgui.IsItemHovered() then
+                    imgui.BeginTooltip()
+                    imgui.Text(A[Box[i]] .. " | " .. AA[Box[i]][Dif])
+                    imgui.EndTooltip()
+                end
                 imgui.NextColumn()
                 for j = 1, 10, 1 do
                     --Section ID
@@ -329,7 +425,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.1",
+    version = "2.2",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present

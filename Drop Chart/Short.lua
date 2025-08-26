@@ -580,7 +580,7 @@ return{
 ["maegdv"] = "Maximum Attack E: Gal Da Val",
 
 --Random Attack Xrd REV 2
-["rev2"] = "Random Attack Xrd REV 1",
+["rev2"] = "Random Attack Xrd REV 2",
 ["xrdrev2"] = "Random Attack Xrd REV 2",
 ["xrd2rev2"] = "Random Attack Xrd REV 2",
 

@@ -14,7 +14,7 @@ return {
 ["Seabed"] = "Seabed",
 ["Seabed Upper"] = "Seabed Upper",
 ["Seabed Lower"] = "Seabed Lower",
-["Control Tower"] = "Control Tower",
+["Tower"] = "Control Tower",
 ["Crater"] = "Crater",
 ["Sub Desert"] = "Sub Desert",
 

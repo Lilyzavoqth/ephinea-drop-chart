@@ -1,5 +1,5 @@
 return {
-["Quest"] = {[0] = "Default", "Forest", "Cave", "Mine", "Ruins", "VR Temple", "VR Spaceship", "CCA", "Seabed", "Control Tower", "Crater", "Sub Desert", "Total",
+["Quest"] = {[0] = "Default", "Forest", "Cave", "Mine", "Ruins", "VR Temple", "VR Spaceship", "CCA", "Seabed", "Tower", "Crater", "Sub Desert", "Total",
 ["Forest"] = {"Booma", "", "Gobooma", "", "Gigobooma", "", "Savage Wolf", "", "Barbarous Wolf", "", "Rag Rappy", "", "Al Rappy", "", "Mothmant", "", "Monest", "", "Hildebear", "", "Hildeblue", "", "Dragon", ""},
 ["Cave"] = {"Evil Shark", "", "Pal Shark", "", "Guil Shark", "", "Poison Lily", "", "Nar Lily", "", "Pofuilly Slime", "", "Pouilly Slime", "", "Grass Assassin", "", "Nano Dragon", "", "Pan Arms", "", "Hidoom", "", "Migium", "", "De Rol Le", ""},
 ["Mine"] = {"Gillchic", "", "Dubchic", "", "Dubwitch", "", "Canadine", "", "Canane", "", "Sinow Beat", "", "Sinow Gold", "", "Garanz", "", "Vol Opt", ""},
@@ -8,7 +8,7 @@ return {
 ["VR Spaceship"] = {"Gillchic E2", "", "Dubchic E2", "", "Dubwitch E2", "", "Savage Wolf E2", "", "Barbarous Wolf E2", "", "Delsaber E2", "", "Chaos Sorcerer E2", "", "Garanz E2", "", "Pan Arms E2", "", "Hidoom E2", "", "Migium E2", "", "Gol Dragon", ""},
 ["CCA"] = {"Merillia", "", "Meriltas", "", "Gee", "", "Ul Gibbon", "", "Zol Gibbon", "", "Sinow Berill", "", "Sinow Spigell", "", "Gi Gue", "", "Gibbles", "", "Mericarol", "", "Merikle", "", "Mericus", "", "Gal Gryphon", ""},
 ["Seabed"] = {"Dolmolm", "", "Dolmdarl", "", "Recon", "", "Recobox", "", "Sinow Zoa", "", "Sinow Zele", "", "Morfos", "", "Deldepth", "", "Delbiter", "", "Olga Flow", ""},
-["Control Tower"] = {"Recon", "", "Recobox", "", "Delbiter", "", "Gi Gue", "", "Gibbles", "", "Mericarol", "", "Merikle", "", "Mericus", "", "Del Lily", "", "Ill Gill", "", "Epsilon", ""},
+["Tower"] = {"Recon", "", "Recobox", "", "Delbiter", "", "Gi Gue", "", "Gibbles", "", "Mericarol", "", "Merikle", "", "Mericus", "", "Del Lily", "", "Ill Gill", "", "Epsilon", ""},
 ["Crater"] = {"Boota", "", "Ze Boota", "", "Ba Boota", "", "Satellite Lizard", "", "Yowie", "", "Sand Rappy", "", "Del Rappy", "", "Astark", "", "Zu", "", "Pazuzu", "", "Dorphon", "", "Dorphon Eclair", ""},
 ["Sub Desert"] = {"Goran", "", "Pyro Goran", "", "Goran Detonator", "", "Satellite Lizard", "", "Yowie", "", "Sand Rappy", "", "Del Rappy", "", "Merissa A", "", "Merissa AA", "", "Zu", "", "Pazuzu", "", "Girtablulu", "", "Saint Million", "", "Shambertin", "", "Kondrieu", ""}},
 
