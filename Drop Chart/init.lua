@@ -11,6 +11,7 @@ local E = require("Drop Chart.Enemies")
 local EE = require("Drop Chart.Enemies Extra")
 local A = require("Drop Chart.Areas")
 local AA = require("Drop Chart.Attributes")
+local SD = require("Drop Chart.Set Drop")
 local AB = require("Drop Chart.Areas Boxes")
 local Q = require("Drop Chart.Quests")
 local QB = require("Drop Chart.Quests Boxes")
@@ -128,14 +129,14 @@ local function present()
             if Quest[0] ~= "Default" and A[Quest[i]] ~= "Bosses" then
                 if imgui.IsItemHovered() then
                     imgui.BeginTooltip()
-                    imgui.Text(A[Quest[i]] .. " | " .. AA[Quest[i]][Dif])
+                    imgui.Text(A[Quest[i]] .. ": " .. AA[Quest[i]][Dif])
                     imgui.EndTooltip()
                 end
             elseif A[Quest[i]] == "Bosses" then
                 if imgui.IsItemHovered() then
                     imgui.BeginTooltip()
                     for k = 1, table.getn(Quest["Bosses"]), 2 do
-                        imgui.Text(AA[Quest["Bosses"][k]] .. " | " .. AA[AA[Quest["Bosses"][k]]][Dif])
+                        imgui.Text(AA[Quest["Bosses"][k]] .. ": " .. AA[AA[Quest["Bosses"][k]]][Dif])
                     end
                     imgui.EndTooltip()
                 end
@@ -143,7 +144,7 @@ local function present()
                 if imgui.IsItemHovered() then
                     imgui.BeginTooltip()
                     for k = 1, table.getn(AA[Quest[i]]), 1 do
-                        imgui.Text(AA[Quest[i]][k] .. " | " .. AA[AA[Quest[i]][k]][Dif])
+                        imgui.Text(AA[Quest[i]][k] .. ": " .. AA[AA[Quest[i]][k]][Dif])
                     end
                     imgui.EndTooltip()
                 end
@@ -180,7 +181,7 @@ local function present()
                 if not Total and Quest[0] ~= "Default" and A[Quest[i]] ~= "Bosses" then
                     if imgui.IsItemHovered() then
                         imgui.BeginTooltip()
-                        imgui.Text(A[Quest[i]] .. " | " .. AA[Quest[i]][Dif])
+                        imgui.Text(A[Quest[i]] .. ": " .. AA[Quest[i]][Dif])
                         imgui.EndTooltip()
                     end
                 elseif Total and Quest[0] ~= "Default" then
@@ -188,10 +189,10 @@ local function present()
                         imgui.BeginTooltip()
                         for k = 1, table.getn(Quest) - 1, 1 do
                             if A[Quest[k]] ~= "Bosses" then
-                                imgui.Text(A[Quest[k]] .. " | " .. AA[Quest[k]][Dif])
+                                imgui.Text(A[Quest[k]] .. ": " .. AA[Quest[k]][Dif])
                             else
                                 for k = 1, table.getn(Quest["Bosses"]), 2 do
-                                imgui.Text(AA[Quest["Bosses"][k]] .. " | " .. AA[AA[Quest["Bosses"][k]]][Dif])
+                                imgui.Text(AA[Quest["Bosses"][k]] .. ": " .. AA[AA[Quest["Bosses"][k]]][Dif])
                                 end
                             end
                         end
@@ -201,7 +202,7 @@ local function present()
                     if imgui.IsItemHovered() then
                         imgui.BeginTooltip()
                         for k = 1, table.getn(Quest["Bosses"]), 2 do
-                            imgui.Text(AA[Quest["Bosses"][k]] .. " | " .. AA[AA[Quest["Bosses"][k]]][Dif])
+                            imgui.Text(AA[Quest["Bosses"][k]] .. ": " .. AA[AA[Quest["Bosses"][k]]][Dif])
                         end
                         imgui.EndTooltip()
                     end
@@ -209,7 +210,7 @@ local function present()
                     if imgui.IsItemHovered() then
                         imgui.BeginTooltip()
                         for k = 1, table.getn(AA[Quest[i]]), 1 do
-                            imgui.Text(AA[Quest[i]][k] .. " | " .. AA[AA[Quest[i]][k]][Dif])
+                            imgui.Text(AA[Quest[i]][k] .. ": " .. AA[AA[Quest[i]][k]][Dif])
                         end
                         imgui.EndTooltip()
                     end
@@ -219,6 +220,13 @@ local function present()
                     --Section ID
                     imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(SecID[j]) - 16) / 2)
                     imgui.Text(SecID[j])
+                    if imgui.IsItemHovered() then
+                        imgui.BeginTooltip()
+                        for k = 1, 10, 1 do
+                            imgui.Text(AA["Weapons"][k] .. ": " .. AA[SecID[j]][k])
+                        end
+                        imgui.EndTooltip()
+                    end
                     imgui.NextColumn()
                 end
                 imgui.Separator()
@@ -235,6 +243,13 @@ local function present()
                         imgui.SetCursorPosY(cPosY)
                     else
                         imgui.Text(E[Area[j]][Dif])
+                    end
+                    if Area[j] ~= "Random Mericarol" then
+                        if imgui.IsItemHovered() then
+                            imgui.BeginTooltip()
+                            imgui.Text("Set Drop: " .. SD[Area[j]][Dif])
+                            imgui.EndTooltip()
+                        end
                     end
                     --Rare Monster Rate
                     if Area[j] == "Al Rappy" or Area[j] == "Hildeblue" or Area[j] == "Nar Lily" or Area[j] == "Pouilly Slime"
@@ -259,6 +274,7 @@ local function present()
                         imgui.Text(D[Dif][Area[j]][k])
                         --Item Rate
                         local ItemRate = string.sub(D[Dif][Area[j]][k+3], 3)
+                        local InX = ItemRate
                         local ItemDAR = string.match(D[Dif][Area[j]][k+1], "%d+", string.len(D[Dif][Area[j]][k+1]) - 4)
                         local ItemRDR = string.match(D[Dif][Area[j]][k+2], "%d+%.%d+", string.len(D[Dif][Area[j]][k+2]) - 10)
                         if tonumber(ItemRate) ~= nil then
@@ -281,10 +297,41 @@ local function present()
                         end
                         if imgui.IsItemHovered() then
                             imgui.BeginTooltip()
+                            local ModDAR = math.min(100, math.floor((DAR / 100) * ItemDAR))
+                            local ModRDR = math.min(87.5, math.floor((RDR / 100) * ItemRDR * 100000) / 100000)
                             --Drop Rate
                             imgui.Text(D[Dif][Area[j]][k+1])
+                            if DAR > 100 then
+                                imgui.SameLine()
+                                imgui.TextColored(0, 1, 0, 1, "1/" .. math.floor(100 / ModDAR * 100) / 100 .. " (" .. ModDAR .. "%)")
+                            end
                             --Rare Rate
                             imgui.Text(D[Dif][Area[j]][k+2])
+                            if RDR > 100 then
+                                imgui.SameLine()
+                                imgui.TextColored(0, 1, 0, 1, "1/" .. math.floor(100 / ModRDR * 100) / 100 .. " (" .. ModRDR .. "%)")
+                            end
+                            --Base Rate
+                            imgui.Text("Item Rate: " .. D[Dif][Area[j]][k+3])
+                            if DAR > 100 or RDR > 100 then
+                                imgui.SameLine()
+                                imgui.TextColored(0, 1, 0, 1, "1/" .. ItemRate)
+                            end
+                            --1 in X
+                            local MonsterCount = string.match(Area[j+1], "%d+")
+                            if MonsterCount ~= nil then
+                                imgui.Text("1 in " .. math.floor(InX / MonsterCount * 100) / 100 .. " runs")
+                                if DAR > 100 or RDR > 100 then
+                                    imgui.SameLine()
+                                    imgui.TextColored(0, 1, 0, 1, math.floor(ItemRate / MonsterCount * 100) / 100)
+                                end
+                            --X per run
+                                imgui.Text(math.floor(MonsterCount / InX * 100) / 100 .. " per run")
+                                if DAR > 100 or RDR > 100 then
+                                    imgui.SameLine()
+                                    imgui.TextColored(0, 1, 0, 1, math.floor(MonsterCount / ItemRate * 100) / 100)
+                                end
+                            end
                             imgui.EndTooltip()
                         end
                         imgui.NextColumn()
@@ -305,16 +352,21 @@ local function present()
                             else
                                 imgui.Text(E[EE[Area[j]][k]][Dif])
                             end
+                            if imgui.IsItemHovered() then
+                                imgui.BeginTooltip()
+                                imgui.Text("Set Drop: " .. SD[EE[Area[j]][k]][Dif])
+                                imgui.EndTooltip()
+                            end
                             --Rare Monster Rate
+                            local EnemyRER = math.floor(500 / (RER / 100) * 100) / 100
+                            if Area[j] == "Kondrieu" then
+                                EnemyRER = math.floor(10 / (RER / 100) * 100) / 100
+                            end
                             if Quest[0] ~= "Default" and (Area[j] == "Rag Rappy" or Area[j] == "Hildebear" or Area[j] == "Poison Lily" or Area[j] == "Pofuilly Slime"
                                 or Area[j] == "Poison Lily E2" or Area[j] == "Rag Rappy E2" or Area[j] == "Hildebear E2"
                                 or Area[j] == "Sand Rappy" or Area[j] == "Zu" or Area[j] == "Dorphon" or Area[j] == "Merissa A" or Area[j] == "Saint Million" or Area[j] == "Shambertin") then
-                                local EnemyRER = "1/" .. math.floor(500 / (RER / 100) * 100) / 100
-                                if Area[j] == "Kondrieu" then
-                                    EnemyRER = "1/" .. math.floor(10 / (RER / 100) * 100) / 100
-                                end
-                                imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(EnemyRER)) / 2)
-                                imgui.Text(EnemyRER)
+                                imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize("1/" .. EnemyRER)) / 2)
+                                imgui.Text("1/" .. EnemyRER)
                                 imgui.NextColumn()
                             else
                             --Monster Count
@@ -328,6 +380,7 @@ local function present()
                                 imgui.Text(D[Dif][EE[Area[j]][k]][l])
                                 --Item Rate
                                 local ItemRate = string.sub(D[Dif][EE[Area[j]][k]][l+3], 3)
+                                local InX = ItemRate
                                 local ItemDAR = string.match(D[Dif][EE[Area[j]][k]][l+1], "%d+", string.len(D[Dif][EE[Area[j]][k]][l+1]) - 4)
                                 local ItemRDR = string.match(D[Dif][EE[Area[j]][k]][l+2], "%d+%.%d+", string.len(D[Dif][EE[Area[j]][k]][l+2]) - 10)
                                 if ItemRate ~= nil then
@@ -350,10 +403,41 @@ local function present()
                                 end
                                 if imgui.IsItemHovered() then
                                     imgui.BeginTooltip()
+                                    local ModDAR = math.min(100, math.floor((DAR / 100) * ItemDAR))
+                                    local ModRDR = math.min(87.5, math.floor((RDR / 100) * ItemRDR * 100000) / 100000)
                                     --Drop Rate
                                     imgui.Text(D[Dif][EE[Area[j]][k]][l+1])
+                                    if DAR > 100 then
+                                        imgui.SameLine()
+                                        imgui.TextColored(0, 1, 0, 1, "1/" .. math.floor(100 / ModDAR * 100) / 100 .. " (" .. ModDAR .. "%)")
+                                    end
                                     --Rare Rate
                                     imgui.Text(D[Dif][EE[Area[j]][k]][l+2])
+                                    if RDR > 100 then
+                                        imgui.SameLine()
+                                        imgui.TextColored(0, 1, 0, 1, "1/" .. math.floor(100 / ModRDR * 100) / 100 .. " (" .. ModRDR .. "%)")
+                                    end
+                                    --Base Rate
+                                    imgui.Text("Base Rate: " .. D[Dif][EE[Area[j]][k]][l+3])
+                                    if DAR > 100 or RDR > 100 then
+                                        imgui.SameLine()
+                                        imgui.TextColored(0, 1, 0, 1, "1/" .. ItemRate)
+                                    end
+                                    --1 in X
+                                    local MonsterCount = string.match(Area[j+1], "%d+")
+                                    if MonsterCount ~= nil then
+                                        imgui.Text("1 in " .. math.floor(InX * 500 / MonsterCount * 100) / 100 .. " runs")
+                                        if DAR > 100 or RDR > 100 or RER > 100 then
+                                            imgui.SameLine()
+                                            imgui.TextColored(0, 1, 0, 1, math.floor(ItemRate * EnemyRER / MonsterCount * 100) / 100)
+                                        end
+                                    --X per run
+                                        imgui.Text(math.floor(MonsterCount / (InX * 500) * 100) / 100 .. " per run")
+                                        if DAR > 100 or RDR > 100 or RER > 100 then
+                                            imgui.SameLine()
+                                            imgui.TextColored(0, 1, 0, 1, math.floor(MonsterCount / (ItemRate * EnemyRER) * 100) / 100)
+                                        end
+                                    end
                                     imgui.EndTooltip()
                                 end
                                 imgui.NextColumn()
@@ -379,7 +463,7 @@ local function present()
                 imgui.Text(A[Box[i]])
                 if imgui.IsItemHovered() then
                     imgui.BeginTooltip()
-                    imgui.Text(A[Box[i]] .. " | " .. AA[Box[i]][Dif])
+                    imgui.Text(A[Box[i]] .. ": " .. AA[Box[i]][Dif])
                     imgui.EndTooltip()
                 end
                 imgui.NextColumn()
@@ -425,7 +509,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.2",
+    version = "2.3",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present

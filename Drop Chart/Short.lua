@@ -389,26 +389,45 @@ return{
 
 --Halloween
 --Hollow Battlefield: Forest
+["hfor"] = "Hollow Battlefield: Forest",
+["hforest"] = "Hollow Battlefield: Forest",
+["hbfor"] = "Hollow Battlefield: Forest",
+["hbforest"] = "Hollow Battlefield: Forest",
 ["cfor"] = "Hollow Battlefield: Forest",
 ["cforest"] = "Hollow Battlefield: Forest",
 ["cookiefor"] = "Hollow Battlefield: Forest",
 ["cookieforest"] = "Hollow Battlefield: Forest",
 
 --Hollow Battlefield: Cave
+["hcav"] = "Hollow Battlefield: Cave",
+["hcave"] = "Hollow Battlefield: Cave",
+["hbcav"] = "Hollow Battlefield: Cave",
+["hbcave"] = "Hollow Battlefield: Cave",
 ["ccav"] = "Hollow Battlefield: Cave",
 ["ccave"] = "Hollow Battlefield: Cave",
 ["cookiecav"] = "Hollow Battlefield: Cave",
 ["cookiecave"] = "Hollow Battlefield: Cave",
 
 --Hollow Battlefield: Mine
+["hmin"] = "Hollow Battlefield: Mine",
+["hmine"] = "Hollow Battlefield: Mine",
+["hbmin"] = "Hollow Battlefield: Mine",
+["hbmine"] = "Hollow Battlefield: Mine",
 ["cmin"] = "Hollow Battlefield: Mine",
 ["cmine"] = "Hollow Battlefield: Mine",
 ["cookiemin"] = "Hollow Battlefield: Mine",
 ["cookiemine"] = "Hollow Battlefield: Mine",
 
 --Hollow Battlefield: Ruins
+["hrui"] = "Hollow Battlefield: Ruins",
+["hruin"] = "Hollow Battlefield: Ruins",
+["hruins"] = "Hollow Battlefield: Ruins",
+["hbrui"] = "Hollow Battlefield: Ruins",
+["hbruin"] = "Hollow Battlefield: Ruins",
+["hbruins"] = "Hollow Battlefield: Ruins",
 ["crui"] = "Hollow Battlefield: Ruins",
 ["cruin"] = "Hollow Battlefield: Ruins",
+["cruins"] = "Hollow Battlefield: Ruins",
 ["cookierui"] = "Hollow Battlefield: Ruins",
 ["cookieruin"] = "Hollow Battlefield: Ruins",
 ["cookieruins"] = "Hollow Battlefield: Ruins",
@@ -731,31 +750,58 @@ return{
 
 --Halloween
 --Hollow Reality: Temple
+["htem"] = "Hollow Reality: Temple",
+["htemple"] = "Hollow Reality: Temple",
+["hrtem"] = "Hollow Reality: Temple",
+["hrtemple"] = "Hollow Reality: Temple",
 ["ctem"] = "Hollow Reality: Temple",
 ["ctemple"] = "Hollow Reality: Temple",
 ["cookietem"] = "Hollow Reality: Temple",
 ["cookietemple"] = "Hollow Reality: Temple",
 
 --Hollow Reality: Spaceship
+["hspa"] = "Hollow Reality: Spaceship",
+["hspace"] = "Hollow Reality: Spaceship",
+["hspaceship"] = "Hollow Reality: Spaceship",
+["hrspa"] = "Hollow Reality: Spaceship",
+["hrspace"] = "Hollow Reality: Spaceship",
+["hrspaceship"] = "Hollow Reality: Spaceship",
 ["cspa"] = "Hollow Reality: Spaceship",
 ["cspace"] = "Hollow Reality: Spaceship",
+["cspaceship"] = "Hollow Reality: Spaceship",
 ["cookiespa"] = "Hollow Reality: Spaceship",
 ["cookiespace"] = "Hollow Reality: Spaceship",
 ["cookiespaceship"] = "Hollow Reality: Spaceship",
 
 --Hollow Phantasm: Jungle
+["hjun"] = "Hollow Phantasm: Jungle",
+["hjung"] = "Hollow Phantasm: Jungle",
+["hjungle"] = "Hollow Phantasm: Jungle",
+["hpjun"] = "Hollow Phantasm: Jungle",
+["hpjung"] = "Hollow Phantasm: Jungle",
+["hpjungle"] = "Hollow Phantasm: Jungle",
 ["cjun"] = "Hollow Phantasm: Jungle",
 ["cjung"] = "Hollow Phantasm: Jungle",
+["cjungle"] = "Hollow Phantasm: Jungle",
 ["cookiejun"] = "Hollow Phantasm: Jungle",
 ["cookiejung"] = "Hollow Phantasm: Jungle",
 ["cookiejungle"] = "Hollow Phantasm: Jungle",
 
 --Hollow Phantasm: Seabed
+["hsea"] = "Hollow Phantasm: Seabed",
+["hseabed"] = "Hollow Phantasm: Seabed",
+["hpsea"] = "Hollow Phantasm: Seabed",
+["hpseabed"] = "Hollow Phantasm: Seabed",
 ["csea"] = "Hollow Phantasm: Seabed",
+["cseabed"] = "Hollow Phantasm: Seabed",
 ["cookiesea"] = "Hollow Phantasm: Seabed",
 ["cookieseabed"] = "Hollow Phantasm: Seabed",
 
 --Hollow Phantasm: Tower
+["htow"] = "Hollow Phantasm: Tower",
+["htower"] = "Hollow Phantasm: Tower",
+["hptow"] = "Hollow Phantasm: Tower",
+["hptower"] = "Hollow Phantasm: Tower",
 ["ctow"] = "Hollow Phantasm: Tower",
 ["ctower"] = "Hollow Phantasm: Tower",
 ["cookietow"] = "Hollow Phantasm: Tower",
@@ -883,6 +929,7 @@ return{
 
 --Maximum Attack
 --MAXIMUM ATTACK 3 Ver2
+["ma3"] = "MAXIMUM ATTACK 3 Ver2",
 ["ma3v2"] = "MAXIMUM ATTACK 3 Ver2",
 
 --Maximum Attack 4th Stage -4A-
@@ -959,14 +1006,26 @@ return{
 
 --Halloween
 --Hollow Wasteland: Wilderness
+["hcra"] = "Hollow Wasteland: Wilderness",
+["hcrat"] = "Hollow Wasteland: Wilderness",
+["hcrater"] = "Hollow Wasteland: Wilderness",
+["hwcra"] = "Hollow Wasteland: Wilderness",
+["hwcrat"] = "Hollow Wasteland: Wilderness",
+["hwcrater"] = "Hollow Wasteland: Wilderness",
 ["ccra"] = "Hollow Wasteland: Wilderness",
 ["ccrat"] = "Hollow Wasteland: Wilderness",
+["ccrater"] = "Hollow Wasteland: Wilderness",
 ["cookiecra"] = "Hollow Wasteland: Wilderness",
 ["cookiecrat"] = "Hollow Wasteland: Wilderness",
 ["cookiecrater"] = "Hollow Wasteland: Wilderness",
 
 --Hollow Wasteland: Desert
+["hdes"] = "Hollow Wasteland: Desert",
+["hdesert"] = "Hollow Wasteland: Desert",
+["hwdes"] = "Hollow Wasteland: Desert",
+["hwdesert"] = "Hollow Wasteland: Desert",
 ["cdes"] = "Hollow Wasteland: Desert",
+["cdesert"] = "Hollow Wasteland: Desert",
 ["cookiedes"] = "Hollow Wasteland: Desert",
 ["cookiedesert"] = "Hollow Wasteland: Desert",
 }

@@ -254,7 +254,7 @@ return {
 ["Cave 3"] = "32"},
 
 ["Scarlet Realm #3"] = {"Mine 1", "Mine 2",
-["Mine 1"] = "51",
+["Mine 1"] = "81",
 ["Mine 2"] = "36"},
 
 ["Scarlet Realm #4"] = {"Ruins 2", "Ruins 3",
@@ -687,7 +687,7 @@ return {
 
 ["Anomalous Ordeal #4"] = {"VR Spaceship Beta", "Seabed Lower Levels",
 ["VR Spaceship Beta"] = "21 6w 2a",
-["Seabed Lower Levels"] = "32"},
+["Seabed Lower Levels"] = "36"},
 
 ["Anomalous Ordeal #5"] = {"Seaside Area", "Control Tower",
 ["Seaside Area"] = "14",
@@ -787,7 +787,7 @@ return {
 ["VR Temple Final"] = "7w 7a"},
 
 ["Lost BIND ASSAULT"] = {"VR Spaceship Alpha", "VR Spaceship Beta", "VR Spaceship Final",
-["VR Spaceship Alpha"] = "37 7w 12a",
+["VR Spaceship Alpha"] = "40 7w 12a",
 ["VR Spaceship Beta"] = "32 6w",
 ["VR Spaceship Final"] = "12w 12a"},
 
