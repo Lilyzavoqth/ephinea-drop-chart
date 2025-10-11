@@ -16,6 +16,7 @@ local AB = require("Drop Chart.Areas Boxes")
 local Q = require("Drop Chart.Quests")
 local QB = require("Drop Chart.Quests Boxes")
 local S = require("Drop Chart.Short")
+local Highlight = require("Drop Chart.Highlight")
 
 local success
 
@@ -271,7 +272,11 @@ local function present()
                     for k = 1, 40, 4 do
                         --Item Name
                         imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(D[Dif][Area[j]][k]) - 16) / 2)
-                        imgui.Text(D[Dif][Area[j]][k])
+                        if Highlight[D[Dif][Area[j]][k]] == true then
+                            imgui.TextColored(1, 1, 0, 1, D[Dif][Area[j]][k])
+                        else
+                            imgui.Text(D[Dif][Area[j]][k])
+                        end
                         --Item Rate
                         local ItemRate = string.sub(D[Dif][Area[j]][k+3], 3)
                         local InX = ItemRate
@@ -377,7 +382,11 @@ local function present()
                             for l = 1, 40, 4 do
                                 --Item Name
                                 imgui.SetCursorPosX(imgui.GetCursorPosX() + (xCol - imgui.CalcTextSize(D[Dif][EE[Area[j]][k]][l]) - 16) / 2)
-                                imgui.Text(D[Dif][EE[Area[j]][k]][l])
+                                if Highlight[D[Dif][EE[Area[j]][k]][l]] == true then
+                                    imgui.TextColored(1, 1, 0, 1, D[Dif][EE[Area[j]][k]][l])
+                                else
+                                    imgui.Text(D[Dif][EE[Area[j]][k]][l])
+                                end
                                 --Item Rate
                                 local ItemRate = string.sub(D[Dif][EE[Area[j]][k]][l+3], 3)
                                 local InX = ItemRate
@@ -509,7 +518,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.3",
+    version = "2.4",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present
