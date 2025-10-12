@@ -114,5 +114,6 @@ return {
 ["Heart of Samba Maracas"] = true,
 ["Heart of Rabbit Wand"] = true,
 ["Heart of Sorcerer's Cane"] = true,
-["Heart of The Sign of a God"] = true
+["Heart of The Sigh of a God"] = true
+
 }
