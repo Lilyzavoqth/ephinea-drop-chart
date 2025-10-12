@@ -316,7 +316,7 @@ local function present()
                                 imgui.SameLine()
                                 imgui.TextColored(0, 1, 0, 1, "1/" .. math.floor(100 / ModRDR * 100) / 100 .. " (" .. ModRDR .. "%)")
                             end
-                            --Base Rate
+                            --Item Rate
                             imgui.Text("Item Rate: " .. D[Dif][Area[j]][k+3])
                             if DAR > 100 or RDR > 100 then
                                 imgui.SameLine()
@@ -426,8 +426,8 @@ local function present()
                                         imgui.SameLine()
                                         imgui.TextColored(0, 1, 0, 1, "1/" .. math.floor(100 / ModRDR * 100) / 100 .. " (" .. ModRDR .. "%)")
                                     end
-                                    --Base Rate
-                                    imgui.Text("Base Rate: " .. D[Dif][EE[Area[j]][k]][l+3])
+                                    --Item Rate
+                                    imgui.Text("Item Rate: " .. D[Dif][EE[Area[j]][k]][l+3])
                                     if DAR > 100 or RDR > 100 then
                                         imgui.SameLine()
                                         imgui.TextColored(0, 1, 0, 1, "1/" .. ItemRate)
