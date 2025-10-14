@@ -115,5 +115,4 @@ return {
 ["Heart of Rabbit Wand"] = true,
 ["Heart of Sorcerer's Cane"] = true,
 ["Heart of The Sigh of a God"] = true
-
 }

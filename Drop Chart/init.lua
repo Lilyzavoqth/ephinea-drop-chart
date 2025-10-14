@@ -234,16 +234,36 @@ local function present()
                 local Area = Quest[Quest[i]]
                 for j = 1, table.getn(Area), 2 do
                     --Monster Name
+                    local NameR = 1
+                    local NameG = 1
+                    local NameB = 1
+                    if E[Area[j]][0] == "Native" then
+                        NameR = 0.64706
+                        NameG = 1
+                        NameB = 0.66667
+                    elseif E[Area[j]][0] == "A.Beast" then
+                        NameR = 0.96078
+                        NameG = 1
+                        NameB = 0.6
+                    elseif E[Area[j]][0] == "Machine" then
+                        NameR = 1
+                        NameG = 0.61569
+                        NameB = 0.58039
+                    elseif E[Area[j]][0] == "Dark" then
+                        NameR = 1
+                        NameG = 0.66275
+                        NameB = 1
+                    end
                     imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(E[Area[j]][Dif])) / 2)
                     if Area[j+1] == "" and not (Area[j] == "Al Rappy" or Area[j] == "Hildeblue" or Area[j] == "Nar Lily" or Area[j] == "Pouilly Slime"
                         or Area[j] == "Nar Lily E2" or Area[j] == "Love Rappy" or Area[j] == "St Rappy" or Area[j] == "Hallo Rappy" or Area[j] == "Egg Rappy" or Area[j] == "Hildeblue E2"
                         or Area[j] == "Del Rappy" or Area[j] == "Pazuzu" or Area[j] == "Dorphon Eclair" or Area[j] == "Merissa AA" or Area[j] == "Kondrieu") then
                         local cPosY= imgui.GetCursorPosY()
                         imgui.SetCursorPosY(imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
-                        imgui.Text(E[Area[j]][Dif])
+                        imgui.TextColored(NameR, NameG, NameB, 1, E[Area[j]][Dif])
                         imgui.SetCursorPosY(cPosY)
                     else
-                        imgui.Text(E[Area[j]][Dif])
+                        imgui.TextColored(NameR, NameG, NameB, 1, E[Area[j]][Dif])
                     end
                     if Area[j] ~= "Random Mericarol" then
                         if imgui.IsItemHovered() then
@@ -331,10 +351,10 @@ local function present()
                                     imgui.TextColored(0, 1, 0, 1, math.floor(ItemRate / MonsterCount * 100) / 100)
                                 end
                             --X per run
-                                imgui.Text(math.floor(MonsterCount / InX * 100) / 100 .. " per run")
+                                imgui.Text(math.floor(MonsterCount / InX * 10000) / 10000 .. " per run")
                                 if DAR > 100 or RDR > 100 then
                                     imgui.SameLine()
-                                    imgui.TextColored(0, 1, 0, 1, math.floor(MonsterCount / ItemRate * 100) / 100)
+                                    imgui.TextColored(0, 1, 0, 1, math.floor(MonsterCount / ItemRate * 10000) / 10000)
                                 end
                             end
                             imgui.EndTooltip()
@@ -348,14 +368,34 @@ local function present()
                         or Area[j] == "Sand Rappy" or Area[j] == "Zu" or Area[j] == "Dorphon" or Area[j] == "Merissa A" or Area[j] == "Saint Million" or Area[j] == "Shambertin") then
                         for k = 1, table.getn(EE[Area[j]]), 2 do
                             --Monster Name
+                            local NameR = 1
+                            local NameG = 1
+                            local NameB = 1
+                            if E[EE[Area[j]][k]][0] == "Native" then
+                                NameR = 0.64706
+                                NameG = 1
+                                NameB = 0.66667
+                            elseif E[EE[Area[j]][k]][0] == "A.Beast" then
+                                NameR = 0.96078
+                                NameG = 1
+                                NameB = 0.6
+                            elseif E[EE[Area[j]][k]][0] == "Machine" then
+                                NameR = 1
+                                NameG = 0.61569
+                                NameB = 0.58039
+                            elseif E[EE[Area[j]][k]][0] == "Dark" then
+                                NameR = 1
+                                NameG = 0.66275
+                                NameB = 1
+                            end
                             imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(E[EE[Area[j]][k]][Dif])) / 2)
                             if EE[Area[j]][k+1] == "" and (Area[j] == "Pan Arms" or Area[j] == "Bulclaw" or Area[j] == "Pan Arms E2") then
                                 local cPosY= imgui.GetCursorPosY()
                                 imgui.SetCursorPosY(imgui.GetCursorPosY() + imgui.GetFontSize() / 2)
-                                imgui.Text(E[EE[Area[j]][k]][Dif])
+                                imgui.TextColored(NameR, NameG, NameB, 1, E[EE[Area[j]][k]][Dif])
                                 imgui.SetCursorPosY(cPosY)
                             else
-                                imgui.Text(E[EE[Area[j]][k]][Dif])
+                                imgui.TextColored(NameR, NameG, NameB, 1, E[EE[Area[j]][k]][Dif])
                             end
                             if imgui.IsItemHovered() then
                                 imgui.BeginTooltip()
@@ -364,7 +404,7 @@ local function present()
                             end
                             --Rare Monster Rate
                             local EnemyRER = math.floor(500 / (RER / 100) * 100) / 100
-                            if Area[j] == "Kondrieu" then
+                            if E[EE[Area[j]][k]][Dif] == "Kondrieu" then
                                 EnemyRER = math.floor(10 / (RER / 100) * 100) / 100
                             end
                             if Quest[0] ~= "Default" and (Area[j] == "Rag Rappy" or Area[j] == "Hildebear" or Area[j] == "Poison Lily" or Area[j] == "Pofuilly Slime"
@@ -435,16 +475,24 @@ local function present()
                                     --1 in X
                                     local MonsterCount = string.match(Area[j+1], "%d+")
                                     if MonsterCount ~= nil then
-                                        imgui.Text("1 in " .. math.floor(InX * 500 / MonsterCount * 100) / 100 .. " runs")
+                                        if E[EE[Area[j]][k]][Dif] == "Kondrieu" then
+                                            imgui.Text("1 in " .. math.floor(InX * 10 / MonsterCount * 100) / 100 .. " runs")
+                                        else
+                                            imgui.Text("1 in " .. math.floor(InX * 500 / MonsterCount * 100) / 100 .. " runs")
+                                        end
                                         if DAR > 100 or RDR > 100 or RER > 100 then
                                             imgui.SameLine()
                                             imgui.TextColored(0, 1, 0, 1, math.floor(ItemRate * EnemyRER / MonsterCount * 100) / 100)
                                         end
                                     --X per run
-                                        imgui.Text(math.floor(MonsterCount / (InX * 500) * 100) / 100 .. " per run")
+                                        if E[EE[Area[j]][k]][Dif] == "Kondrieu" then
+                                            imgui.Text(math.floor(MonsterCount / (InX * 10) * 10000) / 10000 .. " per run")
+                                        else
+                                            imgui.Text(math.floor(MonsterCount / (InX * 500) * 10000) / 10000 .. " per run")
+                                        end
                                         if DAR > 100 or RDR > 100 or RER > 100 then
                                             imgui.SameLine()
-                                            imgui.TextColored(0, 1, 0, 1, math.floor(MonsterCount / (ItemRate * EnemyRER) * 100) / 100)
+                                            imgui.TextColored(0, 1, 0, 1, math.floor(MonsterCount / (ItemRate * EnemyRER) * 10000) / 10000)
                                         end
                                     end
                                     imgui.EndTooltip()
@@ -518,7 +566,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.4",
+    version = "2.5",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present
