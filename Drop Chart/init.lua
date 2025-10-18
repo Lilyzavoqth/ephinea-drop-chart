@@ -432,7 +432,7 @@ local function present()
                                 local InX = ItemRate
                                 local ItemDAR = string.match(D[Dif][EE[Area[j]][k]][l+1], "%d+", string.len(D[Dif][EE[Area[j]][k]][l+1]) - 4)
                                 local ItemRDR = string.match(D[Dif][EE[Area[j]][k]][l+2], "%d+%.%d+", string.len(D[Dif][EE[Area[j]][k]][l+2]) - 10)
-                                if ItemRate ~= nil then
+                                if tonumber(ItemRate) ~= nil then
                                     if DAR / 100 > 100 / ItemDAR then
                                         ItemRate = ItemRate / (100 / ItemDAR)
                                     else
