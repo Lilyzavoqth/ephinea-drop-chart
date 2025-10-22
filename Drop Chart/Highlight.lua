@@ -68,6 +68,7 @@ return {
 -- Cards
 
 -- Frames
+["Ignition Cloak"] = true,
 
 -- Barriers
 ["Red Ring"] = true,
