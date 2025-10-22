@@ -287,23 +287,23 @@ return {
 
 ["Scarlet Realm #1"] = {[0] = "Scarlet Realm #1", "Forest 1", "Forest 2", "Total",
 ["Forest 1"] = {"Booma", "35", "Gobooma", "24", "Savage Wolf", "22", "Barbarous Wolf", "1", "Rag Rappy", "11", "Mothmant", "?", "Monest", "2"},
-["Forest 2"] = {"Booma", "27", "Gobooma", "14", "Gigobooma", "25", "Savage Wolf", "13", "Barbarous Wolf", "16", "Rag Rappy", "10", "Mothmant", "?", "Monest", "5", "Hildebear", "13 (+2)"},
-["Total"] = {"Booma", "62", "Gobooma", "38", "Gigobooma", "25", "Savage Wolf", "35", "Barbarous Wolf", "17", "Rag Rappy", "21", "Mothmant", "?", "Monest", "7", "Hildebear", "13 (+2)"}},
+["Forest 2"] = {"Booma", "27", "Gobooma", "14", "Gigobooma", "25", "Savage Wolf", "13", "Barbarous Wolf", "16", "Rag Rappy", "10", "Mothmant", "?", "Monest", "5", "Hildebear", "15 (13+2)"},
+["Total"] = {"Booma", "62", "Gobooma", "38", "Gigobooma", "25", "Savage Wolf", "35", "Barbarous Wolf", "17", "Rag Rappy", "21", "Mothmant", "?", "Monest", "7", "Hildebear", "15 (13+2)"}},
 
 ["Scarlet Realm #2"] = {[0] = "Scarlet Realm #2", "Cave 2", "Cave 3", "Total",
 ["Cave 2"] = {"Evil Shark", "61", "Pal Shark", "25", "Guil Shark", "12", "Poison Lily", "20", "Pofuilly Slime", "5", "Grass Assassin", "17", "Nano Dragon", "10"},
-["Cave 3"] = {"Evil Shark", "67", "Pal Shark", "36", "Guil Shark", "24", "Poison Lily", "24", "Pofuilly Slime", "8", "Nano Dragon", "14", "Pan Arms", "18 (+5)"},
-["Total"] = {"Evil Shark", "128", "Pal Shark", "61", "Guil Shark", "36", "Poison Lily", "44", "Pofuilly Slime", "13", "Grass Assassin", "17", "Nano Dragon", "24", "Pan Arms", "18 (+5)"}},
+["Cave 3"] = {"Evil Shark", "67", "Pal Shark", "36", "Guil Shark", "24", "Poison Lily", "24", "Pofuilly Slime", "8", "Nano Dragon", "14", "Pan Arms", "23 (18+5)"},
+["Total"] = {"Evil Shark", "128", "Pal Shark", "61", "Guil Shark", "36", "Poison Lily", "44", "Pofuilly Slime", "13", "Grass Assassin", "17", "Nano Dragon", "24", "Pan Arms", "23 (18+5)"}},
 
 ["Scarlet Realm #3"] = {[0] = "Scarlet Realm #3", "Mine 1", "Mine 2", "Total",
 ["Mine 1"] = {"Gillchic", "66*", "Canadine", "73*", "Canane", "4*", "Sinow Beat", "26*", "Sinow Gold", "22", "Garanz", "7"},
 ["Mine 2"] = {"Gillchic", "57", "Dubchic", "33", "Canadine", "69", "Canane", "3", "Sinow Beat", "39", "Sinow Gold", "40", "Garanz", "22"},
-["Total"] = {"Gillchic", "123*", "Dubchic", "33", "Canadine", "142*", "Canane", "7*", "Sinow Beat", "65* (+3)", "Sinow Gold", "62 (+10)", "Garanz", "29 (+1)"}},
+["Total"] = {"Gillchic", "123*", "Dubchic", "33", "Canadine", "142*", "Canane", "7*", "Sinow Beat", "68* (65+3)", "Sinow Gold", "72 (62+10)", "Garanz", "30 (29+1)"}},
 
 ["Scarlet Realm #4"] = {[0] = "Scarlet Realm #4", "Ruins 2", "Ruins 3", "Total",
 ["Ruins 2"] = {"Dimenian", "62", "La Dimenian", "41", "So Dimenian", "29", "Claw", "57", "Bulclaw", "13", "Dark Gunner", "17", "Delsaber", "36", "Chaos Bringer", "10"},
 ["Ruins 3"] = {"Dimenian", "20", "La Dimenian", "30", "So Dimenian", "22", "Claw", "37", "Bulclaw", "7", "Dark Gunner", "8", "Chaos Sorcerer", "19", "Dark Belra", "33", "Chaos Bringer", "15"},
-["Total"] = {"Dimenian", "82", "La Dimenian", "71", "So Dimenian", "51", "Claw", "94", "Bulclaw", "20", "Dark Gunner", "25", "Delsaber", "36", "Chaos Sorcerer", "19", "Dark Belra", "33", "Chaos Bringer", "25 (+5)"}},
+["Total"] = {"Dimenian", "82", "La Dimenian", "71", "So Dimenian", "51", "Claw", "94", "Bulclaw", "20", "Dark Gunner", "25", "Delsaber", "36", "Chaos Sorcerer", "19", "Dark Belra", "33", "Chaos Bringer", "30 (25+5)"}},
 
 ["Silent Afterimage #1"] = {[0] = "Silent Afterimage #1", "Forest 1", "Ruins 1", "Total",
 ["Forest 1"] = {"Booma", "34", "Gobooma", "13", "Gigobooma", "17", "Savage Wolf", "20", "Barbarous Wolf", "11", "Rag Rappy", "21", "Mothmant", "?", "Monest", "3"},
@@ -316,8 +316,8 @@ return {
 ["Total"] = {"Evil Shark", "68", "Pal Shark", "30", "Guil Shark", "27", "Poison Lily", "39", "Pofuilly Slime", "16", "Nano Dragon", "20", "Pan Arms", "9", "", "", "Gillchic", "83", "Dubchic", "39", "Dubwitch", "13", "Canadine", "83", "Canane", "4", "Sinow Beat", "34", "Sinow Gold", "39", "Garanz", "34"}},
 
 ["Ruins Wreckage"] = {[0] = "Ruins Wreckage", "Ruins 1", "Total",
-["Ruins 1"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "11 (+4)", "Dark Belra", "22"},
-["Total"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "7 (+2)", "Delsaber", "7 (+3)", "Chaos Sorcerer", "11 (+4)", "Dark Belra", "22"}},
+["Ruins 1"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "9 (7+2)", "Delsaber", "10 (7+3)", "Chaos Sorcerer", "15 (11+4)", "Dark Belra", "22"},
+["Total"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "9 (7+2)", "Delsaber", "10 (7+3)", "Chaos Sorcerer", "15 (11+4)", "Dark Belra", "22"}},
 
 --Maximum Attack
 ["MAXIMUM ATTACK 1 Ver2"] = {[0] = "MAXIMUM ATTACK 1 Ver2", "Forest 2", "Cave 3", "Mine 2", "Total",
@@ -338,11 +338,12 @@ return {
 ["Ruins 3"] = {"Dimenian", "13", "La Dimenian", "18", "So Dimenian", "25", "Claw", "52", "Bulclaw", "11", "Dark Gunner", "24", "Death Gunner", "5", "Chaos Sorcerer", "10", "Dark Belra", "27", "Chaos Bringer", "5"},
 ["Total"] = {"Evil Shark", "20", "Pal Shark", "40", "Guil Shark", "32", "Poison Lily", "62", "Pofuilly Slime", "14", "Grass Assassin", "28", "Nano Dragon", "22", "", "", "Gillchic", "21", "Dubchic", "21", "Dubwitch", "4", "Canadine", "59", "Canane", "3", "Sinow Beat", "19", "Sinow Gold", "16", "Garanz", "13 ", "", "", "Dimenian", "13", "La Dimenian", "18", "So Dimenian", "25", "Claw", "52", "Bulclaw", "11", "Dark Gunner", "24", "Death Gunner", "5", "Chaos Sorcerer", "10", "Dark Belra", "27", "Chaos Bringer", "5"}},
 
-["Maximum Attack 4th Stage -1C-"] = {[0] = "Maximum Attack 4th Stage -1C-", "Cave 2", "Mine 2", "Ruins 3", "Total",
+["Maximum Attack 4th Stage -1C-"] = {[0] = "Maximum Attack 4th Stage -1C-", "Cave 2", "Mine 2", "Ruins 3", "Bosses", "Total",
 ["Cave 2"] = {"Evil Shark", "20", "Pal Shark", "40", "Guil Shark", "32", "Poison Lily", "62", "Pofuilly Slime", "14", "Grass Assassin", "28", "Nano Dragon", "22"},
 ["Mine 2"] = {"Gillchic", "19", "Dubchic", "24", "Dubwitch", "3", "Canadine", "48", "Canane", "4", "Sinow Beat", "17", "Sinow Gold", "19", "Garanz", "16"},
-["Ruins 3"] = {"Dimenian", "11", "La Dimenian", "11", "So Dimenian", "20", "Claw", "17", "Bulclaw", "5", "Dark Gunner", "18", "Death Gunner", "4", "Chaos Sorcerer", "7", "Dark Belra", "9", "Chaos Bringer", "12", "Dark Falz", "1"},
-["Total"] = {"Evil Shark", "20", "Pal Shark", "40", "Guil Shark", "32", "Poison Lily", "62", "Pofuilly Slime", "14", "Grass Assassin", "28", "Nano Dragon", "22", "", "", "Gillchic", "19", "Dubchic", "24", "Dubwitch", "3", "Canadine", "48", "Canane", "4", "Sinow Beat", "17", "Sinow Gold", "19", "Garanz", "16", "", "", "Dimenian", "11", "La Dimenian", "11", "So Dimenian", "20", "Claw", "17", "Bulclaw", "5", "Dark Gunner", "18", "Death Gunner", "4", "Chaos Sorcerer", "7", "Dark Belra", "9", "Chaos Bringer", "12", "Dark Falz", "1"}},
+["Ruins 3"] = {"Dimenian", "11", "La Dimenian", "11", "So Dimenian", "20", "Claw", "17", "Bulclaw", "5", "Dark Gunner", "18", "Death Gunner", "4", "Chaos Sorcerer", "7", "Dark Belra", "9", "Chaos Bringer", "12"},
+["Bosses"] = {"Dark Falz", "1"},
+["Total"] = {"Evil Shark", "20", "Pal Shark", "40", "Guil Shark", "32", "Poison Lily", "62", "Pofuilly Slime", "14", "Grass Assassin", "28", "Nano Dragon", "22", "", "", "Gillchic", "19", "Dubchic", "24", "Dubwitch", "3", "Canadine", "48", "Canane", "4", "Sinow Beat", "17", "Sinow Gold", "19", "Garanz", "16", "", "", "Dimenian", "11", "La Dimenian", "11", "So Dimenian", "20", "Claw", "17", "Bulclaw", "5", "Dark Gunner", "18", "Death Gunner", "4", "Chaos Sorcerer", "7", "Dark Belra", "9", "Chaos Bringer", "12", "", "", "Dark Falz", "1"}},
 
 ["Maximum Attack 4th Stage -1R-"] = {[0] = "Maximum Attack 4th Stage -1R-", "Cave 2", "Mine 2", "Ruins 3", "Total",
 ["Cave 2"] = {},
@@ -569,22 +570,6 @@ return {
 ["Ruins 2"] = {"Booma", "11", "Gobooma", "6", "Gigobooma", "2", "Savage Wolf", "8", "Barbarous Wolf", "4", "Rag Rappy", "2", "Hildebear", "12", "", "", "Guil Shark", "3", "Poison Lily", "14", "Pofuilly Slime", "1", "Nano Dragon", "7", "Pan Arms", "7", "", "", "Gillchic", "23", "Dubchic", "6", "Dubwitch", "6", "Canadine", "8", "Canane", "4", "Sinow Beat", "3", "Sinow Gold", "5", "Garanz", "12", "", "", "Dimenian", "5", "La Dimenian", "8", "So Dimenian", "12", "Dark Gunner", "10", "Delsaber", "5", "Chaos Sorcerer", "8", "Dark Belra", "15", "Chaos Bringer", "14"},
 ["Total"] = {"Booma", "39", "Gobooma", "38", "Gigobooma", "28", "Savage Wolf", "32", "Barbarous Wolf", "27", "Rag Rappy", "27", "Mothmant", "?", "Monest", "5", "Hildebear", "33", "", "", "Guil Shark", "3", "Poison Lily", "14", "Pofuilly Slime", "1", "Nano Dragon", "7", "Pan Arms", "8", "", "", "Gillchic", "23", "Dubchic", "6", "Dubwitch", "6", "Canadine", "8", "Canane", "4", "Sinow Beat", "3", "Sinow Gold", "5", "Garanz", "13", "", "", "Dimenian", "32", "La Dimenian", "35", "So Dimenian", "42", "Claw", "23", "Bulclaw", "15", "Dark Gunner", "10", "Delsaber", "24", "Chaos Sorcerer", "23", "Dark Belra", "43", "Chaos Bringer", "17"}},
 
-["Maximum Attack E: Forest"] = {[0] = "Maximum Attack E: Forest", "Forest 2", "Total",
-["Forest 2"] = {"Booma", "22", "Gobooma", "17", "Gigobooma", "37", "Savage Wolf", "25", "Barbarous Wolf", "7", "Rag Rappy", "16", "Mothmant", "?", "Monest", "5", "Hildebear", "32"},
-["Total"] = {"Booma", "22", "Gobooma", "17", "Gigobooma", "37", "Savage Wolf", "25", "Barbarous Wolf", "7", "Rag Rappy", "16", "Mothmant", "?", "Monest", "5", "Hildebear", "32"}},
-
-["Maximum Attack E: Cave"] = {[0] = "Maximum Attack E: Cave", "Cave 2", "Total",
-["Cave 2"] = {"Evil Shark", "28", "Pal Shark", "42", "Guil Shark", "44", "Poison Lily", "46", "Pofuilly Slime", "4", "Grass Assassin", "23", "Nano Dragon", "30"},
-["Total"] = {"Evil Shark", "28", "Pal Shark", "42", "Guil Shark", "44", "Poison Lily", "46", "Pofuilly Slime", "4", "Grass Assassin", "23", "Nano Dragon", "30"}},
-
-["Maximum Attack E: Mine"] = {[0] = "Maximum Attack E: Mine", "Mine 1", "Total",
-["Mine 1"] = {"Gillchic", "42", "Dubchic", "12", "Dubwitch", "3", "Canadine", "65", "Canane", "4", "Sinow Beat", "21", "Sinow Gold", "13", "Garanz", "19"},
-["Total"] = {"Gillchic", "42", "Dubchic", "12", "Dubwitch", "3", "Canadine", "65", "Canane", "4", "Sinow Beat", "21", "Sinow Gold", "13", "Garanz", "19"}},
-
-["Maximum Attack E: Ruins"] = {[0] = "Maximum Attack E: Ruins", "Ruins 3", "Total",
-["Ruins 3"] = {"Dimenian", "32", "La Dimenian", "33", "So Dimenian", "18", "Claw", "24", "Bulclaw", "11", "Dark Gunner", "6", "Death Gunner", "1", "Chaos Sorcerer", "15", "Dark Belra", "12", "Chaos Bringer", "11"},
-["Total"] = {"Dimenian", "32", "La Dimenian", "33", "So Dimenian", "18", "Claw", "24", "Bulclaw", "11", "Dark Gunner", "6", "Death Gunner", "1", "Chaos Sorcerer", "15", "Dark Belra", "12", "Chaos Bringer", "11"}},
-
 ["August Atrocity 1"] = {[0] = "August Atrocity 1", "Mine 2", "Total",
 ["Mine 2"] = {"Guil Shark", "11", "Pan Arms", "5", "", "", "Gillchic", "30", "Dubchic", "16", "Dubwitch", "4", "Canadine", "21", "Canane", "1", "Sinow Beat", "14", "Sinow Gold", "13", "Garanz", "12", "", "", "La Dimenian", "8", "So Dimenian", "14", "Delsaber", "10", "Chaos Sorcerer", "6", "Dark Belra", "7", "Chaos Bringer", "3", "", "", "Sinow Berill", "5", "Sinow Spigell", "9", "", "", "Sinow Zoa", "3", "Sinow Zele", "3", "", "", "Recobox", "3", "Gi Gue", "4", "Del Lily", "1", "Epsilon", "1", "", "", "Goran", "7", "Pyro Goran", "3", "Goran Detonator", "5"},
 ["Total"] = {"Guil Shark", "11", "Pan Arms", "5", "", "", "Gillchic", "30", "Dubchic", "16", "Dubwitch", "4", "Canadine", "21", "Canane", "1", "Sinow Beat", "14", "Sinow Gold", "13", "Garanz", "12", "", "", "La Dimenian", "8", "So Dimenian", "14", "Delsaber", "10", "Chaos Sorcerer", "6", "Dark Belra", "7", "Chaos Bringer", "3", "", "", "Sinow Berill", "5", "Sinow Spigell", "9", "", "", "Sinow Zoa", "3", "Sinow Zele", "3", "", "", "Recobox", "3", "Gi Gue", "4", "Del Lily", "1", "Epsilon", "1", "", "", "Goran", "7", "Pyro Goran", "3", "Goran Detonator", "5"}},
@@ -605,6 +590,24 @@ return {
 ["Hollow Battlefield: Ruins"] = {[0] = "Hollow Battlefield: Ruins", "Ruins 3", "Total",
 ["Ruins 3"] = {"Dimenian", "38", "La Dimenian", "37", "So Dimenian", "32", "Claw", "9", "Bulclaw", "7", "Chaos Sorcerer", "27", "Dark Belra", "14", "Chaos Bringer", "20"},
 ["Total"] = {"Dimenian", "38", "La Dimenian", "37", "So Dimenian", "32", "Claw", "9", "Bulclaw", "7", "Chaos Sorcerer", "27", "Dark Belra", "14", "Chaos Bringer", "20"}},
+
+--Sandbox Only
+["Maximum Attack E: Forest"] = {[0] = "Maximum Attack E: Forest", "Forest 2", "Total",
+["Forest 2"] = {"Booma", "22", "Gobooma", "17", "Gigobooma", "37", "Savage Wolf", "25", "Barbarous Wolf", "7", "Rag Rappy", "16", "Mothmant", "?", "Monest", "5", "Hildebear", "32"},
+["Total"] = {"Booma", "22", "Gobooma", "17", "Gigobooma", "37", "Savage Wolf", "25", "Barbarous Wolf", "7", "Rag Rappy", "16", "Mothmant", "?", "Monest", "5", "Hildebear", "32"}},
+
+["Maximum Attack E: Cave"] = {[0] = "Maximum Attack E: Cave", "Cave 2", "Total",
+["Cave 2"] = {"Evil Shark", "28", "Pal Shark", "42", "Guil Shark", "44", "Poison Lily", "46", "Pofuilly Slime", "4", "Grass Assassin", "23", "Nano Dragon", "30"},
+["Total"] = {"Evil Shark", "28", "Pal Shark", "42", "Guil Shark", "44", "Poison Lily", "46", "Pofuilly Slime", "4", "Grass Assassin", "23", "Nano Dragon", "30"}},
+
+["Maximum Attack E: Mine"] = {[0] = "Maximum Attack E: Mine", "Mine 1", "Total",
+["Mine 1"] = {"Gillchic", "42", "Dubchic", "12", "Dubwitch", "3", "Canadine", "65", "Canane", "4", "Sinow Beat", "21", "Sinow Gold", "13", "Garanz", "19"},
+["Total"] = {"Gillchic", "42", "Dubchic", "12", "Dubwitch", "3", "Canadine", "65", "Canane", "4", "Sinow Beat", "21", "Sinow Gold", "13", "Garanz", "19"}},
+
+["Maximum Attack E: Ruins"] = {[0] = "Maximum Attack E: Ruins", "Ruins 3", "Total",
+["Ruins 3"] = {"Dimenian", "32", "La Dimenian", "33", "So Dimenian", "18", "Claw", "24", "Bulclaw", "11", "Dark Gunner", "6", "Death Gunner", "1", "Chaos Sorcerer", "15", "Dark Belra", "12", "Chaos Bringer", "11"},
+["Total"] = {"Dimenian", "32", "La Dimenian", "33", "So Dimenian", "18", "Claw", "24", "Bulclaw", "11", "Dark Gunner", "6", "Death Gunner", "1", "Chaos Sorcerer", "15", "Dark Belra", "12", "Chaos Bringer", "11"}},
+
 
 --Episode 2
 --Goverment
@@ -1046,26 +1049,6 @@ return {
 ["Seaside Area"] = {"Merillia", "15", "Meriltas", "19", "Gee", "27", "Ul Gibbon", "15", "Zol Gibbon", "25", "", "", "Dolmolm", "17", "Dolmdarl", "15", "Recobox", "17"},
 ["Total"] = {"Merillia", "15", "Meriltas", "19", "Gee", "27", "Ul Gibbon", "15", "Zol Gibbon", "25", "", "", "Dolmolm", "17", "Dolmdarl", "15", "Recobox", "17"}},
 
-["Maximum Attack E: Temple"] = {[0] = "Maximum Attack E: Temple", "VR Temple Alpha", "Total",
-["VR Temple Alpha"] = {"Dimenian E2", "15", "La Dimenian E2", "25", "So Dimenian E2", "28", "Poison Lily E2", "43", "Rag Rappy E2", "22", "Grass Assassin E2", "20", "Hildebear E2", "22", "Dark Belra E2", "17"},
-["Total"] = {"Dimenian E2", "15", "La Dimenian E2", "25", "So Dimenian E2", "28", "Poison Lily E2", "43", "Rag Rappy E2", "22", "Grass Assassin E2", "20", "Hildebear E2", "22", "Dark Belra E2", "17"}},
-
-["Maximum Attack E: Spaceship"] = {[0] = "Maximum Attack E: Spaceship", "VR Spaceship Alpha", "Total",
-["VR Spaceship Alpha"] = {"Gillchic E2", "61", "Dubchic E2", "12", "Dubwitch E2", "3", "Savage Wolf E2", "23", "Barbarous Wolf E2", "20", "Delsaber E2", "29", "Garanz E2", "21", "Pan Arms E2", "8"},
-["Total"] = {"Gillchic E2", "61", "Dubchic E2", "12", "Dubwitch E2", "3", "Savage Wolf E2", "23", "Barbarous Wolf E2", "20", "Delsaber E2", "29", "Garanz E2", "21", "Pan Arms E2", "8"}},
-
-["Maximum Attack E: CCA"] = {[0] = "Maximum Attack E: CCA", "Central Control Area", "Total",
-["Central Control Area"] = {"Merillia", "16", "Meriltas", "13", "Gee", "15", "Ul Gibbon", "17", "Zol Gibbon", "19", "Sinow Berill", "10", "Sinow Spigell", "18", "Gi Gue", "5", "Gibbles", "15", "Mericarol", "14", "Merikle", "2", "Mericus", "2"},
-["Total"] = {"Merillia", "16", "Meriltas", "13", "Gee", "15", "Ul Gibbon", "17", "Zol Gibbon", "19", "Sinow Berill", "10", "Sinow Spigell", "18", "Gi Gue", "5", "Gibbles", "15", "Mericarol", "14", "Merikle", "2", "Mericus", "2"}},
-
-["Maximum Attack E: Seabed"] = {[0] = "Maximum Attack E: Seabed", "Seabed Upper Levels", "Total",
-["Seabed Upper Levels"] = {"Dolmolm", "27", "Dolmdarl", "25", "Recon", "260", "Recobox", "26", "Sinow Zoa", "17", "Sinow Zele", "14", "Morfos", "12", "Deldepth", "17", "Delbiter", "18"},
-["Total"] = {"Dolmolm", "27", "Dolmdarl", "25", "Recon", "260", "Recobox", "26", "Sinow Zoa", "17", "Sinow Zele", "14", "Morfos", "12", "Deldepth", "17", "Delbiter", "18"}},
-
-["Maximum Attack E: Tower"] = {[0] = "Maximum Attack E: Tower", "Control Tower", "Total",
-["Control Tower"] = {"Recon", "20", "Recobox", "2", "Delbiter", "8", "Gi Gue", "18", "Gibbles", "9", "Mericarol", "7", "Merikle", "6", "Mericus", "7", "Del Lily", "24", "Ill Gill", "19", "Epsilon", "4"},
-["Total"] = {"Recon", "20", "Recobox", "2", "Delbiter", "8", "Gi Gue", "18", "Gibbles", "9", "Mericarol", "7", "Merikle", "6", "Mericus", "7", "Del Lily", "24", "Ill Gill", "19", "Epsilon", "4"}},
-
 ["August Atrocity 2"] = {[0] = "August Atrocity 2", "Central Control Area", "Total",
 ["Central Control Area"] = {"Booma", "6", "Gobooma", "7", "Gigobooma", "4", "", "", "Canadine", "8", "Canane", "1", "Sinow Beat", "6", "", "", "Dark Gunner", "4", "Chaos Bringer", "4", "", "", "Poison Lily E2", "7", "Rag Rappy E2", "13", "Mothmant E2", "?", "Monest E2", "2", "Hildebear E2", "18", "", "", "Savage Wolf E2", "4", "Barbarous Wolf E2", "2", "Chaos Sorcerer E2", "15", "Garanz E2", "4", "", "", "Merillia", "8", "Meriltas", "4", "Gee", "13", "Ul Gibbon", "32", "Zol Gibbon", "13", "Sinow Berill", "8", "", "", "Dolmdarl", "2", "Morfos", "2", "", "", "Gi Gue", "8", "Gibbles", "5", "Mericarol", "5", "Mericus", "1", "Merikle", "2", "Del Lily", "2", "Ill Gill", "1", "Epsilon", "1", "", "", "Boota", "17", "Ba Boota", "16", "Ze Boota", "13", "Astark", "6", "Dorphon", "6", "", "", "Yowie", "2", "Satellite Lizard", "2", "Merissa A", "7", "Girtablulu", "1"},
 ["Total"] = {"Booma", "6", "Gobooma", "7", "Gigobooma", "4", "", "", "Canadine", "8", "Canane", "1", "Sinow Beat", "6", "", "", "Dark Gunner", "4", "Chaos Bringer", "4", "", "", "Poison Lily E2", "7", "Rag Rappy E2", "13", "Mothmant E2", "?", "Monest E2", "2", "Hildebear E2", "18", "", "", "Savage Wolf E2", "4", "Barbarous Wolf E2", "2", "Chaos Sorcerer E2", "15", "Garanz E2", "4", "", "", "Merillia", "8", "Meriltas", "4", "Gee", "13", "Ul Gibbon", "32", "Zol Gibbon", "13", "Sinow Berill", "8", "", "", "Dolmdarl", "2", "Morfos", "2", "", "", "Gi Gue", "8", "Gibbles", "5", "Mericarol", "5", "Mericus", "1", "Merikle", "2", "Del Lily", "2", "Ill Gill", "1", "Epsilon", "1", "", "", "Boota", "17", "Ba Boota", "16", "Ze Boota", "13", "Astark", "6", "Dorphon", "6", "", "", "Yowie", "2", "Satellite Lizard", "2", "Merissa A", "7", "Girtablulu", "1"}},
@@ -1092,9 +1075,30 @@ return {
 ["Total"] = {"Recon", "?", "Recobox", "14", "Delbiter", "11", "Gi Gue", "19", "Gibbles", "18", "Mericarol", "15", "Merikle", "3", "Mericus", "3", "Del Lily", "16", "Ill Gill", "25", "Epsilon", "7"}},
 
 --Sandbox Only
+["Maximum Attack E: Temple"] = {[0] = "Maximum Attack E: Temple", "VR Temple Alpha", "Total",
+["VR Temple Alpha"] = {"Dimenian E2", "15", "La Dimenian E2", "25", "So Dimenian E2", "28", "Poison Lily E2", "43", "Rag Rappy E2", "22", "Grass Assassin E2", "20", "Hildebear E2", "22", "Dark Belra E2", "17"},
+["Total"] = {"Dimenian E2", "15", "La Dimenian E2", "25", "So Dimenian E2", "28", "Poison Lily E2", "43", "Rag Rappy E2", "22", "Grass Assassin E2", "20", "Hildebear E2", "22", "Dark Belra E2", "17"}},
+
+["Maximum Attack E: Spaceship"] = {[0] = "Maximum Attack E: Spaceship", "VR Spaceship Alpha", "Total",
+["VR Spaceship Alpha"] = {"Gillchic E2", "61", "Dubchic E2", "12", "Dubwitch E2", "3", "Savage Wolf E2", "23", "Barbarous Wolf E2", "20", "Delsaber E2", "29", "Garanz E2", "21", "Pan Arms E2", "8"},
+["Total"] = {"Gillchic E2", "61", "Dubchic E2", "12", "Dubwitch E2", "3", "Savage Wolf E2", "23", "Barbarous Wolf E2", "20", "Delsaber E2", "29", "Garanz E2", "21", "Pan Arms E2", "8"}},
+
+["Maximum Attack E: CCA"] = {[0] = "Maximum Attack E: CCA", "Central Control Area", "Total",
+["Central Control Area"] = {"Merillia", "16", "Meriltas", "13", "Gee", "15", "Ul Gibbon", "17", "Zol Gibbon", "19", "Sinow Berill", "10", "Sinow Spigell", "18", "Gi Gue", "5", "Gibbles", "15", "Mericarol", "14", "Merikle", "2", "Mericus", "2"},
+["Total"] = {"Merillia", "16", "Meriltas", "13", "Gee", "15", "Ul Gibbon", "17", "Zol Gibbon", "19", "Sinow Berill", "10", "Sinow Spigell", "18", "Gi Gue", "5", "Gibbles", "15", "Mericarol", "14", "Merikle", "2", "Mericus", "2"}},
+
+["Maximum Attack E: Seabed"] = {[0] = "Maximum Attack E: Seabed", "Seabed Upper Levels", "Total",
+["Seabed Upper Levels"] = {"Dolmolm", "27", "Dolmdarl", "25", "Recon", "260", "Recobox", "26", "Sinow Zoa", "17", "Sinow Zele", "14", "Morfos", "12", "Deldepth", "17", "Delbiter", "18"},
+["Total"] = {"Dolmolm", "27", "Dolmdarl", "25", "Recon", "260", "Recobox", "26", "Sinow Zoa", "17", "Sinow Zele", "14", "Morfos", "12", "Deldepth", "17", "Delbiter", "18"}},
+
+["Maximum Attack E: Tower"] = {[0] = "Maximum Attack E: Tower", "Control Tower", "Total",
+["Control Tower"] = {"Recon", "20", "Recobox", "2", "Delbiter", "8", "Gi Gue", "18", "Gibbles", "9", "Mericarol", "7", "Merikle", "6", "Mericus", "7", "Del Lily", "24", "Ill Gill", "19", "Epsilon", "4"},
+["Total"] = {"Recon", "20", "Recobox", "2", "Delbiter", "8", "Gi Gue", "18", "Gibbles", "9", "Mericarol", "7", "Merikle", "6", "Mericus", "7", "Del Lily", "24", "Ill Gill", "19", "Epsilon", "4"}},
+
 ["The Gloom Spire"] = {[0] = "The Gloom Spire", "Control Tower", "Total",
 ["Control Tower"] = {"Recon", "?", "Recobox", "70", "Delbiter", "67 (+5)", "Gi Gue", "65 (+4)", "Gibbles", "70 (+1)", "Mericarol", "76 (+2)", "Merikle", "46 (+2)", "Mericus", "48", "Del Lily", "106", "Ill Gill", "164 (+2)", "Epsilon", "55"},
 ["Total"] = {"Recon", "?", "Recobox", "70", "Delbiter", "67 (+5)", "Gi Gue", "65 (+4)", "Gibbles", "70 (+1)", "Mericarol", "76 (+2)", "Merikle", "46 (+2)", "Mericus", "48", "Del Lily", "106", "Ill Gill", "164 (+2)", "Epsilon", "55"}},
+
 
 --Episode 4
 --Government
@@ -1328,14 +1332,6 @@ return {
 ["Subterranean Desert 3"] = {"Goran", "29", "Pyro Goran", "30", "Goran Detonator", "17", "Satellite Lizard", "17", "Yowie", "15", "Sand Rappy", "23", "Merissa A", "41", "Zu", "23", "Girtablulu", "7"},
 ["Total"] = {"Boota", "11", "Ze Boota", "15", "Ba Boota", "18", "Astark", "19", "Dorphon", "27", "", "", "Goran", "48", "Pyro Goran", "53", "Goran Detonator", "33", "Satellite Lizard", "59", "Yowie", "51", "Sand Rappy", "81", "Merissa A", "80", "Zu", "74", "Girtablulu", "18"}},
 
-["Maximum Attack E: Crater"] = {[0] = "Maximum Attack E: Crater", "Crater West", "Total",
-["Crater West"] = {"Boota", "24", "Ze Boota", "23", "Ba Boota", "25", "Satellite Lizard", "36", "Yowie", "23", "Sand Rappy", "18", "Astark", "23", "Zu", "8", "Dorphon", "14"},
-["Total"] = {"Boota", "24", "Ze Boota", "23", "Ba Boota", "25", "Satellite Lizard", "36", "Yowie", "23", "Sand Rappy", "18", "Astark", "23", "Zu", "8", "Dorphon", "14"}},
-
-["Maximum Attack E: Desert"] = {[0] = "Maximum Attack E: Desert", "Subterranean Desert 3", "Total",
-["Subterranean Desert 3"] = {"Goran", "24", "Pyro Goran", "26", "Goran Detonator", "19", "Satellite Lizard", "30", "Yowie", "20", "Sand Rappy", "13", "Merissa A", "22", "Zu", "18", "Girtablulu", "6"},
-["Total"] = {"Goran", "24", "Pyro Goran", "26", "Goran Detonator", "19", "Satellite Lizard", "30", "Yowie", "20", "Sand Rappy", "13", "Merissa A", "22", "Zu", "18", "Girtablulu", "6"}},
-
 --Halloween
 ["Hollow Wasteland: Wilderness"] = {[0] = "Hollow Wasteland: Wilderness", "Crater West", "Total",
 ["Crater West"] = {"Boota", "11", "Ze Boota", "11", "Ba Boota", "23", "Satellite Lizard", "24", "Yowie", "20", "Sand Rappy", "4", "Astark", "19", "Zu", "20", "Dorphon", "15"},
@@ -1344,4 +1340,14 @@ return {
 ["Hollow Wasteland: Desert"] = {[0] = "Hollow Wasteland: Desert", "Subterranean Desert 3", "Total",
 ["Subterranean Desert 3"] = {"Goran", "33", "Pyro Goran", "22", "Goran Detonator", "15", "Satellite Lizard", "28", "Yowie", "17", "Sand Rappy", "15", "Merissa A", "30", "Zu", "18", "Girtablulu", "6"},
 ["Total"] = {"Goran", "33", "Pyro Goran", "22", "Goran Detonator", "15", "Satellite Lizard", "28", "Yowie", "17", "Sand Rappy", "15", "Merissa A", "30", "Zu", "18", "Girtablulu", "6"}},
+
+--Sandbox Only
+["Maximum Attack E: Crater"] = {[0] = "Maximum Attack E: Crater", "Crater West", "Total",
+["Crater West"] = {"Boota", "24", "Ze Boota", "23", "Ba Boota", "25", "Satellite Lizard", "36", "Yowie", "23", "Sand Rappy", "18", "Astark", "23", "Zu", "8", "Dorphon", "14"},
+["Total"] = {"Boota", "24", "Ze Boota", "23", "Ba Boota", "25", "Satellite Lizard", "36", "Yowie", "23", "Sand Rappy", "18", "Astark", "23", "Zu", "8", "Dorphon", "14"}},
+
+["Maximum Attack E: Desert"] = {[0] = "Maximum Attack E: Desert", "Subterranean Desert 3", "Total",
+["Subterranean Desert 3"] = {"Goran", "24", "Pyro Goran", "26", "Goran Detonator", "19", "Satellite Lizard", "30", "Yowie", "20", "Sand Rappy", "13", "Merissa A", "22", "Zu", "18", "Girtablulu", "6"},
+["Total"] = {"Goran", "24", "Pyro Goran", "26", "Goran Detonator", "19", "Satellite Lizard", "30", "Yowie", "20", "Sand Rappy", "13", "Merissa A", "22", "Zu", "18", "Girtablulu", "6"}},
+
 }
