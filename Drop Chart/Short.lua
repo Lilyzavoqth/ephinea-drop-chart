@@ -108,7 +108,6 @@ return{
 ["koh"] = "Knowing One's Heart",
 
 --The Retired Hunter
-["rh"] = "The Retired Hunter",
 ["trh"] = "The Retired Hunter",
 
 --Dr. Osto's Research
@@ -713,7 +712,7 @@ return{
 ["ph"] = "Pioneer Halloween",
 
 --Rappy Halloween
-["rhal"] = "Rappy Halloween",
+["rh"] = "Rappy Halloween",
 
 --Maximum Attack E: Temple
 ["maet"] = "Maximum Attack E: Temple",

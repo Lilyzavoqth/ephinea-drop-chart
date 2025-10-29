@@ -177,12 +177,43 @@ local function present()
                     end
                 end
                 --Area Name
+                local Area = Quest[Quest[i]]
                 imgui.SetCursorPosX(imgui.GetCursorPosX() + (namePad - 16 - imgui.CalcTextSize(A[Quest[i]])) / 2)
                 imgui.Text(A[Quest[i]])
+                local EnemyTotal = 0
+                local TotalWeapon = 0
+                local TotalFrame = 0
+                local TotalBarrier = 0
+                local TotalUnit = 0
+                local TotalNone = 0
+                for j = 1, table.getn(Area), 2 do
+                    local EnemyCount = string.match(Area[j+1], "%d+")
+                    if EnemyCount ~= nil then
+                        EnemyTotal = EnemyTotal + EnemyCount
+                        if SD[Area[j]][Dif] == "Weapon" then
+                            TotalWeapon = TotalWeapon + EnemyCount
+                        elseif SD[Area[j]][Dif] == "Frame" then
+                            TotalFrame = TotalFrame + EnemyCount
+                        elseif SD[Area[j]][Dif] == "Barrier" then
+                            TotalBarrier = TotalBarrier + EnemyCount
+                        elseif SD[Area[j]][Dif] == "Unit" then
+                            TotalUnit = TotalUnit + EnemyCount
+                        else
+                            TotalNone = TotalNone + EnemyCount
+                        end
+                    end
+                end
                 if not Total and Quest[0] ~= "Default" and A[Quest[i]] ~= "Bosses" then
                     if imgui.IsItemHovered() then
                         imgui.BeginTooltip()
                         imgui.Text(A[Quest[i]] .. ": " .. AA[Quest[i]][Dif])
+                        imgui.Text("Enemies: " .. EnemyTotal)
+                        imgui.Text("Set Drops")
+                        imgui.Text("Weapon: " .. TotalWeapon)
+                        imgui.Text("Frame: " .. TotalFrame)
+                        imgui.Text("Barrer: " .. TotalBarrier)
+                        imgui.Text("Unit: " .. TotalUnit)
+                        imgui.Text("None: " .. TotalNone)
                         imgui.EndTooltip()
                     end
                 elseif Total and Quest[0] ~= "Default" then
@@ -197,6 +228,13 @@ local function present()
                                 end
                             end
                         end
+                        imgui.Text("Enemies: " .. EnemyTotal)
+                        imgui.Text("Set Drops")
+                        imgui.Text("Weapon: " .. TotalWeapon)
+                        imgui.Text("Frame: " .. TotalFrame)
+                        imgui.Text("Barrer: " .. TotalBarrier)
+                        imgui.Text("Unit: " .. TotalUnit)
+                        imgui.Text("None: " .. TotalNone)
                         imgui.EndTooltip()
                     end
                 elseif A[Quest[i]] == "Bosses" then
@@ -231,7 +269,6 @@ local function present()
                     imgui.NextColumn()
                 end
                 imgui.Separator()
-                local Area = Quest[Quest[i]]
                 for j = 1, table.getn(Area), 2 do
                     --Monster Name
                     local NameR = 1
@@ -566,7 +603,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.5",
+    version = "2.6",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present
