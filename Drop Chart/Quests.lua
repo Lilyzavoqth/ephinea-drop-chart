@@ -315,6 +315,22 @@ return {
 ["Mine 1"] = {"Gillchic", "83", "Dubchic", "39", "Dubwitch", "13", "Canadine", "83", "Canane", "4", "Sinow Beat", "34", "Sinow Gold", "39", "Garanz", "34"},
 ["Total"] = {"Evil Shark", "68", "Pal Shark", "30", "Guil Shark", "27", "Poison Lily", "39", "Pofuilly Slime", "16", "Nano Dragon", "20", "Pan Arms", "9", "", "", "Gillchic", "83", "Dubchic", "39", "Dubwitch", "13", "Canadine", "83", "Canane", "4", "Sinow Beat", "34", "Sinow Gold", "39", "Garanz", "34"}},
 
+["Chronocide Trial #1"] = {[0] = "Chronocide Trial #1", "Forest 2", "Total",
+["Forest 2"] = {"Booma", "31", "Gobooma", "35", "Gigobooma", "17", "Savage Wolf", "34", "Barbarous Wolf", "5", "Rag Rappy", "31", "Mothmant", "?", "Monest", "8", "Hildebear", "12"},
+["Total"] = {"Booma", "31", "Gobooma", "35", "Gigobooma", "17", "Savage Wolf", "34", "Barbarous Wolf", "5", "Rag Rappy", "31", "Mothmant", "?", "Monest", "8", "Hildebear", "12"}},
+
+["Chronocide Trial #2"] = {[0] = "Chronocide Trial #2", "Cave 2", "Total",
+["Cave 2"] = {"Evil Shark", "50", "Pal Shark", "29", "Guil Shark", "24", "Poison Lily", "29", "Pofuilly Slime", "14", "Grass Assassin", "19", "Nano Dragon", "18", "Pan Arms", "7"},
+["Total"] = {"Evil Shark", "50", "Pal Shark", "29", "Guil Shark", "24", "Poison Lily", "29", "Pofuilly Slime", "14", "Grass Assassin", "19", "Nano Dragon", "18", "Pan Arms", "7"}},
+
+["Chronocide Trial #3"] = {[0] = "Chronocide Trial #3", "Mine 2", "Total",
+["Mine 2"] = {"Gillchic", "65", "Dubchic", "25", "Dubwitch", "10", "Canadine", "69", "Canane", "3", "Sinow Beat", "22", "Sinow Gold", "15", "Garanz", "10"},
+["Total"] = {"Gillchic", "65", "Dubchic", "25", "Dubwitch", "10", "Canadine", "69", "Canane", "3", "Sinow Beat", "22", "Sinow Gold", "15", "Garanz", "10"}},
+
+["Chronocide Trial #4"] = {[0] = "Chronocide Trial #4", "Ruins 2", "Total",
+["Ruins 2"] = {"Dimenian", "43", "La Dimenian", "27", "So Dimenian", "20", "Claw", "49", "Bulclaw", "10", "Dark Gunner", "13", "Delsaber", "23", "Chaos Sorcerer", "8", "Dark Belra", "11", "Chaos Bringer", "11"},
+["Total"] = {"Dimenian", "43", "La Dimenian", "27", "So Dimenian", "20", "Claw", "49", "Bulclaw", "10", "Dark Gunner", "13", "Delsaber", "23", "Chaos Sorcerer", "8", "Dark Belra", "11", "Chaos Bringer", "11"}},
+
 ["Ruins Wreckage"] = {[0] = "Ruins Wreckage", "Ruins 1", "Total",
 ["Ruins 1"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "9 (7+2)", "Delsaber", "10 (7+3)", "Chaos Sorcerer", "15 (11+4)", "Dark Belra", "22"},
 ["Total"] = {"Dimenian", "35", "La Dimenian", "28", "So Dimenian", "26", "Claw", "63", "Bulclaw", "9 (7+2)", "Delsaber", "10 (7+3)", "Chaos Sorcerer", "15 (11+4)", "Dark Belra", "22"}},

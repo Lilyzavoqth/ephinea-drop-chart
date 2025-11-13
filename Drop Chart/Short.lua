@@ -198,6 +198,18 @@ return{
 --Silent Afterimage #2
 ["sa2"] = "Silent Afterimage #2",
 
+--Chronocide Trial #1
+["ct1"] = "Chronocide Trial #1",
+
+--Chronocide Trial #2
+["ct2"] = "Chronocide Trial #2",
+
+--Chronocide Trial #3
+["ct3"] = "Chronocide Trial #3",
+
+--Chronocide Trial #4
+["ct4"] = "Chronocide Trial #4",
+
 --Ruins Wreckage
 ["rw"] = "Ruins Wreckage",
 
