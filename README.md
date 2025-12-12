@@ -7,7 +7,7 @@ Quest names currently support full case sensitive names or abbreviations. You ca
 v0.3.7.0+ of the [psobbaddonplugin](https://github.com/Solybum/psobbaddonplugin)
 
 ### Installation
-1. Download
+1. [Download](https://github.com/Lilyzavoqth/ephinea-drop-chart/archive/refs/heads/main.zip)
 2. Place the "Drop Chart" folder inside the "addons" folder inside your Ephinea installation.
 
 ### Preview
