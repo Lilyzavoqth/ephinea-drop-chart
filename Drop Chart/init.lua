@@ -51,7 +51,7 @@ local function present()
         local DW = imgui.CalcTextSize("Very Hard") + 32
         local RW = imgui.CalcTextSize("000") + 10
         local QW = imgui.CalcTextSize("This is a testing string")
-        local namePad = imgui.CalcTextSize("Crimson Assassin") + 16
+        local namePad = imgui.CalcTextSize(" Crimson  Assassin ") + 16
 
         local xStart, yStart = imgui.GetWindowPos()
         local yCursor = imgui.GetCursorPosY() - 8
@@ -187,7 +187,7 @@ local function present()
                 local TotalUnit = 0
                 local TotalNone = 0
                 for j = 1, table.getn(Area), 2 do
-                    local EnemyCount = string.match(Area[j+1], "%d+")
+                    local EnemyCount = string.match(Area[j+1], "(%d*%.?%d+)")
                     if EnemyCount ~= nil then
                         EnemyTotal = EnemyTotal + EnemyCount
                         if SD[Area[j]][Dif] == "Weapon" then
@@ -380,7 +380,7 @@ local function present()
                                 imgui.TextColored(0, 1, 0, 1, "1/" .. ItemRate)
                             end
                             --1 in X
-                            local MonsterCount = string.match(Area[j+1], "%d+")
+                            local MonsterCount = string.match(Area[j+1], "(%d*%.?%d+)")
                             if MonsterCount ~= nil then
                                 imgui.Text("1 in " .. math.floor(InX / MonsterCount * 100) / 100 .. " runs")
                                 if DAR > 100 or RDR > 100 then
@@ -510,7 +510,7 @@ local function present()
                                         imgui.TextColored(0, 1, 0, 1, "1/" .. ItemRate)
                                     end
                                     --1 in X
-                                    local MonsterCount = string.match(Area[j+1], "%d+")
+                                    local MonsterCount = string.match(Area[j+1], "(%d*%.?%d+)")
                                     if MonsterCount ~= nil then
                                         if E[EE[Area[j]][k]][Dif] == "Kondrieu" then
                                             imgui.Text("1 in " .. math.floor(InX * 10 / MonsterCount * 100) / 100 .. " runs")
@@ -603,7 +603,7 @@ local function init()
 
   return {
     name = "Drop Chart",
-    version = "2.6",
+    version = "2.7",
     author = "Lilyzavoqth",
     description = "Ephinea Drop Chart",
     present = present

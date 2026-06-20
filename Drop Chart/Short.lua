@@ -293,6 +293,15 @@ return{
 --Subterranean Patrol #1
 ["sp1"] = "Subterranean Patrol #1",
 
+--Subterranean Patrol #2
+["sp2"] = "Subterranean Patrol #2",
+
+--Subterranean Patrol #3
+["sp3"] = "Subterranean Patrol #3",
+
+--Underworld Patrol #1
+["up1"] = "Underworld Patrol #1",
+
 
 
 

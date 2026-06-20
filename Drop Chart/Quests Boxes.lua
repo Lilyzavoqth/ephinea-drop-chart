@@ -30,23 +30,23 @@ return {
 --Goverment
 ["1-1:Planet Ragol"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "44 5r 1o",
-["Forest 2"] = "5 9o"},
+["Forest 2"] = "9o"},
 
 ["1-2:Torrential Woods"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "45 2w 2a 2r",
-["Forest 2"] = "38 12o"},
+["Forest 2"] = "31 1w 2a 12o"},
 
 ["1-3:Subterranean Den"] = {"Forest 1", "Forest 2", "Under the Dome",
 ["Forest 1"] = "45 2w 1a 1t",
-["Forest 2"] = "45 3a 3o",
+["Forest 2"] = "45 4w 3a 3o",
 ["Under the Dome"] = "2w 2a 5t 5o"},
 
 ["2-1:Infernal Cavern"] = {"Cave 1",
-["Cave 1"] = "53 2w 4a 17o"},
+["Cave 1"] = "53 2a 17o"},
 
 ["2-2:Deep Within"] = {"Cave 1", "Cave 2",
-["Cave 1"] = "52 2w 2a 1o",
-["Cave 2"] = "82 5w 2a 5t 10o"},
+["Cave 1"] = "52 2w 2a 3o",
+["Cave 2"] = "47 3w 1a 5t 8o"},
 
 ["2-3:The Mutation"] = {"Cave 2", "Cave 3",
 ["Cave 2"] = "45 3w 1a 6o",
@@ -65,7 +65,7 @@ return {
 ["Mine 2"] = "60 6w 4a 14o"},
 
 ["3-3:Central Control"] = {"Mine 1", "Mine 2", "Monitor Room",
-["Mine 1"] = "58 4w 3a 4o",
+["Mine 1"] = "58 4w 3a 8o",
 ["Mine 2"] = "56 3w 2a 3o",
 ["Monitor Room"] = "3w 3a 7t 3o"},
 
@@ -78,10 +78,10 @@ return {
 
 ["4-3:Hero & Daughter"] = {"Ruins 1", "Ruins 2",
 ["Ruins 1"] = "47 5w 7a",
-["Ruins 2"] = "50 4w 2a 18o"},
+["Ruins 2"] = "52 4w 2a 18o"},
 
 ["4-4:The Tomb Stirs"] = {"Ruins 3",
-["Ruins 3"] = "50 4w 2a 6o"},
+["Ruins 3"] = "48 4w 2a 6o"},
 
 ["4-5:Dark Inheritance"] = {"Ruins 1", "Ruins 2", "Ruins 3", "????",
 ["Ruins 1"] = "57 7w 5a",
@@ -101,31 +101,31 @@ return {
 
 ["Journalistic Pursuit"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "40 5r 1o",
-["Forest 2"] = "38 1w 1a 1o"},
+["Forest 2"] = "31 1w 1a 1o"},
 
 ["The Fake in Yellow"] = {"Forest 1",
 ["Forest 1"] = "40 2w 1a 3r 2o"},
 
 ["Native Research"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "45 2w 2a 2r",
-["Forest 2"] = "47"},
+["Forest 2"] = "38 1w 2a 1o"},
 
 ["Forest of Sorrow"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "45 2w 2a 2r",
-["Forest 2"] = "35"},
+["Forest 2"] = "26 1w 2a 1o"},
 
 ["Gran Squall"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "36 2w 1a 3r 2o",
-["Forest 2"] = "48 2w 1a 2o"},
+["Forest 2"] = "45 3w 2a 3o"},
 
 ["Addicting Food"] = {"Cave 1", "Cave 2", "Cave 3",
 ["Cave 1"] = "50 2a 8o",
-["Cave 2"] = "42 3w 1a 5t",
+["Cave 2"] = "42 3w 1a 5o",
 ["Cave 3"] = "40 3w 1a 5o"},
 
 ["The Lost Bride"] = {"Cave 1", "Cave 2",
 ["Cave 1"] = "42 3w 3a 3o",
-["Cave 2"] = "50 3w 1a 3o"},
+["Cave 2"] = "21 3o"},
 
 ["Waterfall Tears"] = {"Cave 1", "Cave 2",
 ["Cave 1"] = "43 2w 2a 3o",
@@ -133,15 +133,15 @@ return {
 
 ["Black Paper"] = {"Cave 1", "Cave 2", "Cave 3",
 ["Cave 1"] = "52 2w 2a 3o",
-["Cave 2"] = "45 1w 2t 4o",
-["Cave 3"] = "50 6w 4a 5o"},
+["Cave 2"] = "45 1w 6o",
+["Cave 3"] = "39 4w 3a 5o"},
 
 ["Secret Delivery"] = {"Cave 1", "Cave 2",
 ["Cave 1"] = "48 3w 1a 4o",
-["Cave 2"] = "40 2w 2a 3t 1o"},
+["Cave 2"] = "40 2w 2a 4o"},
 
 ["Soul of a Blacksmith"] = {"Forest 1", "Forest 2", "Cave 1", "Cave 2", "Cave 3", "Under the Dome",
-["Forest 1"] = "41 3w 2a 1t 2r",
+["Forest 1"] = "41 3w 2a 2r 1o",
 ["Forest 2"] = "45 4w 3a 3o",
 ["Cave 1"] = "51 2w 1a 6o",
 ["Cave 2"] = "48 2w 1a 4o",
@@ -149,8 +149,8 @@ return {
 ["Under the Dome"] = "2w 2a 5t 5o"},
 
 ["Letter from Lionel"] = {"Forest 1", "Forest 2", "Cave 1", "Cave 2",
-["Forest 1"] = "41 3w 2a 1t 2r",
-["Forest 2"] = "47 2w 2a 2o",
+["Forest 1"] = "41 3w 2a 2r 1o",
+["Forest 2"] = "44 3w 3a 3o",
 ["Cave 1"] = "42 3w 3a 3o",
 ["Cave 2"] = "7"},
 
@@ -162,7 +162,7 @@ return {
 ["Mine 1"] = "44 7w 5a 3o"},
 
 ["The Retired Hunter"] = {"Forest 2", "Ruins 3",
-["Forest 2"] = "38 1w 1a 1o",
+["Forest 2"] = "31 1w 1a 1o",
 ["Ruins 3"] = "35 2w 1o"},
 
 ["Dr. Osto's Research"] = {"Mine 2",
@@ -175,7 +175,7 @@ return {
 
 ["Soul of Steel"] = {"Mine 2", "Ruins 3",
 ["Mine 2"] = "64 3w 1o",
-["Ruins 3"] = "27 4w 2a"},
+["Ruins 3"] = "14 2w 2a"},
 
 ["Doc's Secret Plan"] = {"Ruins 1",
 ["Ruins 1"] = "43 8w 4a"},
@@ -185,8 +185,8 @@ return {
 ["Ruins 2"] = "56 6w 4a 4t"},
 
 ["From the Depths"] = {"Ruins 2", "Ruins 3",
-["Ruins 2"] = "48 4w 1a 4t 14o",
-["Ruins 3"] = "31 4w 2a"},
+["Ruins 2"] = "48 4w 1a 4t 13o",
+["Ruins 3"] = "16 4w 2a"},
 
 ["Central Dome Fire Swirl"] = {"Forest 2",
 ["Forest 2"] = "Unknown"},
@@ -225,8 +225,8 @@ return {
 ["Cave 2"] = "20 5w 3a 5t 3o"},
 
 ["Endless Nightmare #3"] = {"Mine 1", "Mine 2",
-["Mine 1"] = "27 6w 3a  1t 2o",
-["Mine 2"] = "26 6r 10"},
+["Mine 1"] = "27 6w 3a 1t 2o",
+["Mine 2"] = "26 6r 1o"},
 
 ["Endless Nightmare #4"] = {"Ruins 1", "Ruins 2",
 ["Ruins 1"] = "49 8w 7a",
@@ -239,7 +239,7 @@ return {
 
 ["Anomalous Ordeal #1"] = {"Forest 1", "Ruins 2",
 ["Forest 1"] = "43 1w 1a",
-["Ruins 2"] = "38 1w 1o"},
+["Ruins 2"] = "42 1w 1o"},
 
 ["Anomalous Ordeal #2"] = {"Cave 2", "Mine 2",
 ["Cave 2"] = "35",
@@ -251,7 +251,7 @@ return {
 
 ["Scarlet Realm #2"] = {"Cave 2", "Cave 3",
 ["Cave 2"] = "34 2w 2o",
-["Cave 3"] = "32"},
+["Cave 3"] = "40 2w 2o"},
 
 ["Scarlet Realm #3"] = {"Mine 1", "Mine 2",
 ["Mine 1"] = "81",
@@ -262,15 +262,27 @@ return {
 ["Ruins 3"] = "4"},
 
 ["Silent Afterimage #1"] = {"Forest 1", "Ruins 1",
-["Forest 1"] = "Unknown",
-["Ruins 1"] = "Unknown"},
+["Forest 1"] = "18 1w 2a",
+["Ruins 1"] = "23 3w"},
 
 ["Silent Afterimage #2"] = {"Cave 3", "Mine 1",
-["Cave 3"] = "Unknown",
-["Mine 1"] = "Unknown"},
+["Cave 3"] = "25",
+["Mine 1"] = "19 8w"},
+
+["Chronocide Trial #1"] = {"Forest 2",
+["Forest 2"] = "14"},
+
+["Chronocide Trial #2"] = {"Cave 2",
+["Cave 2"] = "19"},
+
+["Chronocide Trial #3"] = {"Mine 2",
+["Mine 2"] = "3 1w 1a 1o"},
+
+["Chronocide Trial #4"] = {"Ruins 2",
+["Ruins 2"] = "6 2w"},
 
 ["Ruins Wreckage"] = {"Ruins 1",
-["Ruins 1"] = "Unknown"},
+["Ruins 1"] = "0"},
 
 --Maximum Attack
 ["MAXIMUM ATTACK 1 Ver2"] = {"Forest 2", "Cave 3", "Mine 1", "Mine 2",
@@ -282,16 +294,16 @@ return {
 ["Maximum Attack 4th Stage -1A-"] = {"Cave 2", "Mine 2", "Ruins 3",
 ["Cave 2"] = "12",
 ["Mine 2"] = "15",
-["Ruins 3"] = "14"},
+["Ruins 3"] = "8"},
 
 ["Maximum Attack 4th Stage -1B-"] = {"Cave 2", "Mine 2", "Ruins 3",
-["Cave 2"] = "15",
+["Cave 2"] = "12",
 ["Mine 2"] = "15",
 ["Ruins 3"] = "14"},
 
 ["Maximum Attack 4th Stage -1C-"] = {"Cave 2", "Mine 2", "Ruins 3",
 ["Cave 2"] = "15",
-["Mine 2"] = "15",
+["Mine 2"] = "9",
 ["Ruins 3"] = "0"},
 
 ["Maximum Attack 4th Stage -1R-"] = {"Cave 2", "Mine 2", "Ruins 3",
@@ -318,14 +330,14 @@ return {
 ["????"] = "12w 9a 3o"},
 
 ["Random Attack Xrd REV 1"] = {"Forest 1", "Forest 2", "Cave 1", "Cave 3", "Mine 1", "Mine 2", "Ruins 1", "Ruins 3", "Palace", "Spaceship", "Under the Dome", "Underground Channel", "Monitor Room", "????",
-["Forest 1"] = "45",
-["Forest 2"] = "24",
-["Cave 1"] = "22",
-["Cave 3"] = "26",
-["Mine 1"] = "20",
-["Mine 2"] = "28",
-["Ruins 1"] = "22",
-["Ruins 3"] = "13",
+["Forest 1"] = "30 (31/29)",
+["Forest 2"] = "17.5 (16/19)",
+["Cave 1"] = "15 (12/16 2w)",
+["Cave 3"] = "21.5 (21/22)",
+["Mine 1"] = "20 (20/20)",
+["Mine 2"] = "17.5 (19/16)",
+["Ruins 1"] = "15 (14/16)",
+["Ruins 3"] = "13 (13/13)",
 ["Palace"] = "0",
 ["Spaceship"] = "0",
 ["Under the Dome"] = "2w 2a 5t 5o",
@@ -361,11 +373,10 @@ return {
 ["Ruins 3"] = "4",
 ["????"] = "0"},
 
-["Fragments of a Memory"] = {"Ruins 1", "Ruins 2", "Ruins 3", "????",
-["Ruins 1"] = "10 (+15)",
+["Fragments of a Memory"] = {"Ruins 1", "Ruins 2", "Ruins 3",
+["Ruins 1"] = "25 (10+15)",
 ["Ruins 2"] = "18",
-["Ruins 3"] = "32",
-["????"] = "12w 5a 7o"},
+["Ruins 3"] = "32"},
 
 ["Rappy's Holiday"] = {"Forest 1", "Forest 2",
 ["Forest 1"] = "53 1w 3r 4o",
@@ -406,7 +417,17 @@ return {
 ["Cave 3"] = "Unknown"},
 
 ["Subterranean Patrol #1"] = {"Cave 3",
-["Cave 3"] = "Unknown"},
+["Cave 3"] = "14"},
+
+["Subterranean Patrol #2"] = {"Cave 2",
+["Cave 2"] = "12"},
+
+["Subterranean Patrol #3"] = {"Cave 1", "Mine 1",
+["Cave 1"] = "16",
+["Mine 1"] = "0"},
+
+["Underworld Patrol #1"] = {"Mine 1",
+["Mine 1"] = "8"},
 
 --Shop
 
@@ -422,7 +443,7 @@ return {
 ["????"] = "12w 5a 7o"},
 
 ["Tyrell's Ego"] = {"Forest 2", "Cave 3", "Mine 2", "Ruins 3", "Under the Dome", "Underground Channel", "Monitor Room", "????",
-["Forest 2"] = "51 2w 3o",
+["Forest 2"] = "51 1w 5o",
 ["Cave 3"] = "13 5o",
 ["Mine 2"] = "34 4w 5a 12o",
 ["Ruins 3"] = "86",
@@ -540,17 +561,16 @@ return {
 ["5-1:Test/VR Temple 1"] = {"VR Temple Alpha",
 ["VR Temple Alpha"] = "31 8w 5a"},
 
-["5-2:Test/VR Temple 2"] = {"VR Temple Alpha", "VR Temple Beta",
-["VR Temple Alpha"] = "36 10w 4a",
-["VR Temple Beta"] = "34 8w 4a"},
+["5-2:Test/VR Temple 2"] = {"VR Temple Beta",
+["VR Temple Beta"] = "34"},
 
 ["5-3:Test/VR Temple 3"] = {"VR Temple Alpha", "VR Temple Beta",
-["VR Temple Alpha"] = "7",
+["VR Temple Alpha"] = "1",
 ["VR Temple Beta"] = "16 3w 4o"},
 
 ["5-4:Test/VR Temple 4"] = {"VR Temple Alpha", "VR Temple Beta",
 ["VR Temple Alpha"] = "36 8w 5a",
-["VR Temple Beta"] = "40 9w 4a"},
+["VR Temple Beta"] = "40 1w"},
 
 ["5-5:Test/VR Temple 5"] = {"VR Temple Alpha", "VR Temple Beta", "VR Temple Final",
 ["VR Temple Alpha"] = "42 10w 4a",
@@ -560,9 +580,8 @@ return {
 ["6-1:Test/Spaceship 1"] = {"VR Spaceship Alpha",
 ["VR Spaceship Alpha"] = "44 7w 4a"},
 
-["6-2:Test/Spaceship 2"] = {"VR Spaceship Alpha", "VR Spaceship Beta",
-["VR Spaceship Alpha"] = "42 6w 6a",
-["VR Spaceship Beta"] = "43 2w 6a"},
+["6-2:Test/Spaceship 2"] = {"VR Spaceship Beta",
+["VR Spaceship Beta"] = "39"},
 
 ["6-3:Test/Spaceship 3"] = {"VR Spaceship Alpha", "VR Spaceship Beta",
 ["VR Spaceship Alpha"] = "0",
@@ -584,11 +603,11 @@ return {
 
 ["7-2:Seeking Clues"] = {"Jungle Area East", "Mountain Area",
 ["Jungle Area East"] = "9 3w 3a",
-["Mountain Area"] = "23 5w 3a"},
+["Mountain Area"] = "19 5w 3a"},
 
 ["7-3:Silent Beach"] = {"Mountain Area", "Seaside Area",
-["Mountain Area"] = "23 4w 4a",
-["Seaside Area"] = "30 4w"},
+["Mountain Area"] = "18 4w 4a",
+["Seaside Area"] = "16 4w"},
 
 ["7-4:Central Control"] = {"Central Control Area",
 ["Central Control Area"] = "11 2w 2a"},
@@ -602,10 +621,10 @@ return {
 ["Cliffs of Gal Da Val"] = "4 8w 4a"},
 
 ["8-1:Below the Waves"] = {"Seabed Upper Levels",
-["Seabed Upper Levels"] = "58 15w 10a 8t"},
+["Seabed Upper Levels"] = "30 7w 6a 8t"},
 
 ["8-2:Desire's End"] = {"Seabed Lower Levels",
-["Seabed Lower Levels"] = "50 10w 6a 17t"},
+["Seabed Lower Levels"] = "11 4w 2a 9t"},
 
 ["8-3:Purple Lamplight"] = {"Seabed Upper Levels", "Seabed Lower Levels", "Test Subject Disposal Area",
 ["Seabed Upper Levels"] = "21 3w 3a",
@@ -621,7 +640,7 @@ return {
 ["VR Temple Final"] = "0"},
 
 ["Blue Star Memories"] = {"VR Temple Beta", "VR Temple Alpha", "VR Spaceship Beta", "VR Temple Final", "VR Spaceship Final",
-["VR Temple Beta"] = "5 8t | 36 4w",
+["VR Temple Beta"] = "5 8t | 26 3w",
 ["VR Temple Alpha"] = "9",
 ["VR Spaceship Beta"] = "18",
 ["VR Temple Final"] = "0",
@@ -675,7 +694,7 @@ return {
 ["Central Control Area"] = "27"},
 
 ["Penumbral Surge #5"] = {"Seabed Upper Levels", "Seabed Lower Levels",
-["Seabed Upper Levels"] = "6",
+["Seabed Upper Levels"] = "3w 3a",
 ["Seabed Lower Levels"] = "0"},
 
 ["Penumbral Surge #6"] = {"Control Tower",
@@ -731,9 +750,9 @@ return {
 ["Control Tower"] = "0"},
 
 ["Maximum Attack 4th Stage -2R-"] = {"Central Control Area", "Seabed Lower Levels", "Control Tower",
-["Central Control Area"] = "Unknown",
-["Seabed Lower Levels"] = "Unknown",
-["Control Tower"] = "Unknown"},
+["Central Control Area"] = "4",
+["Seabed Lower Levels"] = "0",
+["Control Tower"] = "0"},
 
 ["Random Attack Xrd Stage (E2)"] = {"VR Temple Alpha", "VR Temple Beta", "VR Spaceship Alpha", "VR Spaceship Beta", "Jungle Area North", "Mountain Area", "Seaside Area", "Central Control Area", "Seabed Upper Levels", "Seabed Lower Levels", "Control Tower", "VR Temple Final", "VR Spaceship Final", "Cliffs of Gal Da Val", "Test Subject Disposal Area",
 ["VR Temple Alpha"] = "0",
@@ -765,15 +784,15 @@ return {
 ["Test Subject Disposal Area"] = "10w 10a"},
 
 ["Random Attack Xrd REV 2"] = {"VR Temple Alpha", "VR Temple Beta", "VR Spaceship Alpha", "VR Spaceship Beta", "Jungle Area East", "Mountain Area", "Seaside Area", "Seabed Upper Levels", "Seabed Lower Levels", "Control Tower", "VR Temple Final", "VR Spaceship Final", "Cliffs of Gal Da Val", "Test Subject Disposal Area",
-["VR Temple Alpha"] = "16",
-["VR Temple Beta"] = "18",
-["VR Spaceship Alpha"] = "20",
-["VR Spaceship Beta"] = "20",
+["VR Temple Alpha"] = "9.5 (10/9)",
+["VR Temple Beta"] = "11 (11/11)",
+["VR Spaceship Alpha"] = "12 (12/12)",
+["VR Spaceship Beta"] = "12 (12/12)",
 ["Jungle Area East"] = "22",
-["Mountain Area"] = "38",
-["Seaside Area"] = "21",
-["Seabed Upper Levels"] = "21",
-["Seabed Lower Levels"] = "16",
+["Mountain Area"] = "12.5 (10/15)",
+["Seaside Area"] = "12.5 (13/12)",
+["Seabed Upper Levels"] = "12.5 (16/9)",
+["Seabed Lower Levels"] = "10 (10/10)",
 ["Control Tower"] = "17",
 ["VR Temple Final"] = "7w 7a",
 ["VR Spaceship Final"] = "12w 12a",
@@ -800,12 +819,12 @@ return {
 ["Cliffs of Gal Da Val"] = "4 8w 4a"},
 
 ["Lost DEMON'S RAILGUN"] = {"Seabed Upper Levels", "Seabed Lower Levels", "Test Subject Disposal Area",
-["Seabed Upper Levels"] = "42",
-["Seabed Lower Levels"] = "19 8w 3a 7t",
+["Seabed Upper Levels"] = "39 3o",
+["Seabed Lower Levels"] = "20 8w 3a 3t 3o",
 ["Test Subject Disposal Area"] = "14w 10a"},
 
 ["Lost CHARGE VULCAN"] = {"Control Tower",
-["Control Tower"] = "13 3w 8r | 15 9w 8r"},
+["Control Tower"] = "10 3w 8r | 11 7w 10r"},
 
 ["Dream Messenger"] = {"Seaside Area",
 ["Seaside Area"] = "5 2w 2a"},
@@ -856,9 +875,9 @@ return {
 ["Respective Tomorrow"] = {"VR Temple Alpha", "VR Spaceship Alpha", "Seaside Area", "Seabed Lower Levels", "Control Tower", "VR Temple Final", "VR Spaceship Final", "Cliffs of Gal Da Val", "Test Subject Disposal Area",
 ["VR Temple Alpha"] = "15 7w 2a",
 ["VR Spaceship Alpha"] = "15 4w",
-["Seaside Area"] = "0",
+["Seaside Area"] = "12 4w",
 ["Seabed Lower Levels"] = "12 4w 2a 2o",
-["Control Tower"] = "9 8w 8a",
+["Control Tower"] = "2w 4a 2o",
 ["VR Temple Final"] = "7w 7a",
 ["VR Spaceship Final"] = "12w 12a",
 ["Cliffs of Gal Da Val"] = "4 8w 4a",
@@ -1103,14 +1122,14 @@ return {
 ["Meteor Impact Site"] = "8w 8a 2t 2o"},
 
 ["Random Attack Xrd REV 4"] = {"Crater East", "Crater West", "Crater South", "Crater North", "Crater Interior", "Subterranean Desert 1", "Subterranean Desert 2", "Subterranean Desert 3", "Meteor Impact Site",
-["Crater East"] = "0",
-["Crater West"] = "16",
-["Crater South"] = "30",
-["Crater North"] = "14",
-["Crater Interior"] = "16",
-["Subterranean Desert 1"] = "21",
-["Subterranean Desert 2"] = "19",
-["Subterranean Desert 3"] = "29",
+["Crater East"] = "0 (0/0)",
+["Crater West"] = "12 (8/16)",
+["Crater South"] = "20 (24/16)",
+["Crater North"] = "7 (8/6)",
+["Crater Interior"] = "8 (7/9)",
+["Subterranean Desert 1"] = "10.5 (10/11)",
+["Subterranean Desert 2"] = "16.5 (19/14)",
+["Subterranean Desert 3"] = "20 (21/19)",
 ["Meteor Impact Site"] = "8w 8a 2t 2o"},
 
 --Shop

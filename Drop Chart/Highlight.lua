@@ -68,7 +68,9 @@ return {
 -- Cards
 
 -- Frames
+["Dress Plate"] = true,
 ["Ignition Cloak"] = true,
+["Select Cloak"] = true,
 
 -- Barriers
 ["Red Ring"] = true,
